@@ -1,6 +1,0 @@
-403 Forbidden
-Error 403 Forbidden
-Forbidden
-Error 54113
-Details: cache-bfi-krnt7300036-BFI 1685425718 3061739729
-Varnish cache server

@@ -1,1 +1,0 @@
-The user is unable to access a specific webpage on WebMD due to an "Access denied" error code 1020, which may be caused by site owner restrictions. Cloudflare is providing performance and security, and the error details include a Ray ID, country, data center, IP, and timestamp.

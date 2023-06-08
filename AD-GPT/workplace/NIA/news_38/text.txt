@@ -1,0 +1,129 @@
+Immune cells control waste clearance in the brain | National Institute on Aging
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+U.S. Department of Health & Human Services (HHS)
+National Institutes of Health (NIH)
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Menu
+Search
+Search
+Health Information
+A-Z Health Topics
+Alzheimer's & Related Dementias
+Caregiving
+Cognitive Health
+End of Life
+Exercise and Physical Activity
+Healthy Eating
+Español
+Get Print Publications
+Infographics
+Resources for Health Care Professionals
+Research & Funding
+All Research & Funding
+Blog - Inside NIA
+Clinical Trials
+Training & Career Development
+Grants & Funding
+Health Disparities Research
+Research Resources
+Labs at NIA
+Division of Aging Biology
+Division of Behavioral and Social Research
+Division of Geriatrics and Clinical Gerontology
+Division of Neuroscience
+Division of Extramural Activities
+Quick Links
+NIA-Specific Funding Policies
+Scientific Review
+Small Business Program
+Training Opportunities for Special Populations
+Alzheimer's Disease and Related Dementias Funding Announcements
+News & Events
+All News & Events
+News Releases
+Announcements
+Events
+Research Highlights
+Multimedia
+Quick Links
+Media Inquiries
+Alzheimer’s & Related Dementias Press Kit
+About NIA
+All About NIA
+Budget & Testimony
+Strategic Directions
+National Advisory Council on Aging (NACA)
+Advances in Aging and Alzheimer's Research
+Scientific Workforce Diversity
+Staff Directory
+Careers
+Student Resources
+Connect with NIA
+Contact NIA
+Español
+Search
+Search
+Breadcrumb
+Home
+News & Events
+Immune cells control waste clearance in the brain
+Research Highlights
+Immune cells control waste clearance in the brain
+November 23, 2022
+Alzheimer's DiseaseDementias
+From NIH Research Matters
+In the past decade, researchers have discovered a network of cells and vessels in and around the mammalian brain that help remove cellular waste and debris. Studies in mice found that, as the function of this system declines with age, toxic compounds can build up in the brain.
+The discovery of macrophages that help clear waste products in the brain suggests new prevention and treatment strategies for Alzheimer’s disease and related disorders. NIAIDThe brain also has its own population of immune cells. As in the rest of the body, these cells patrol for invading pathogens. They also help with tissue maintenance and repair.
+An NIH-funded research team led by Drs. Antoine Drieu and Jonathan Kipnis from Washington University in St. Louis has been studying a key type of immune cell, called parenchymal border macrophages (PBMs), that interacts with the cerebrospinal fluid that flows in and out of the brain. Their new study was published on Nov. 9, 2022, in Nature.
+To see if PBMs may have a role in regulating the flow of cerebrospinal fluid, the researchers used fluorescent tracers to examine the brains of mice. They found PBMs closely associated with the tracers moving in and out of the brain in cerebrospinal fluid. They also identified different types of PBMs, one of which serves as a waste scavenger.
+When the team injected mice with a drug that depleted PBMs, the flow of cerebrospinal fluid through the brain was substantially reduced one week later. When they tracked cerebrospinal fluid flow in real time in the mice using magnetic resonance imaging, they saw similar results. The researchers also saw buildup of several proteins that have been associated with Alzheimer’s disease in the mice with depleted PBMs.
+Further work showed that, when the brain lost PBMs, the activity of enzymes called MMPs also decreased. This led to accumulation of extracellular matrix along vessels and capillaries. Extracellular matrix provides structure for the vessels that carry fluid through the body. But too much can make vessels overly stiff, impeding fluid flow. Correspondingly, the researchers found that vessels in the brains of mice with depleted PBMs didn’t expand normally.
+The team next compared PBM levels in young and aged mice. Aged mice had fewer of the scavenger PBMs. Aged mice also had a greater accumulation of extracellular matrix in the brain. When the researchers injected aged mice with a substance that can activate PBMs, levels of MMP enzymes and fluid flow both increased, while the amount of extracellular matrix decreased.
+When the researchers depleted PBMs in a mouse model of Alzheimer’s, those mice developed more amyloid beta plaques — one of the hallmarks of the disease — than the same type of mice with normal levels of PBMs. Finally, the team looked at immune cells collected from the brains of people with an inherited form of Alzheimer’s. The PBMs from people with the disease had changes in gene expression that reflected decreased function compared with unaffected family members.
+“Cerebrospinal fluid flow is impaired in numerous neurodegenerative diseases, such as Alzheimer’s, stroke, Parkinson’s, and multiple sclerosis,” Drieu says. “If we can restore fluid flow through the brain just by boosting these macrophages, maybe we can slow the progression of these diseases.” More work in animal models will be needed before such an approach could be tested in people.
+— by Sharon Reynolds
+This research was supported in part by NIA grants AG034113, AG057496, AG078106, AG057777, AG067764, AG062734.
+Reference: Drieu A, et al.
+Parenchymal border macrophages regulate the flow dynamics of the cerebrospinal fluid. Nature. 2022. Epub Nov 9. doi:10.1038/s41586-022-05397-3.
+Latest News
+Could “musical medicine” influence healthy aging?
+05/25/2023
+Return to top
+Quick links
+A-Z health topics
+Clinical trials
+Careers
+Research divisions & contacts
+Staff directory
+Workforce diversity
+NIH COVID-19 information
+Contact NIA
+niaic@nia.nih.gov
+800-222-2225
+Contact us
+Follow us
+Facebook
+Twitter
+LinkedIn
+YouTube
+Newsletters
+Sign up to receive updates and resources delivered to your inbox.
+Sign up
+nia.nih.gov
+An official website of the National Institutes of Health
+Accessibility support
+FOIA requests
+No FEAR Act data
+Office of the Inspector General
+Performance reports
+Vulnerability disclosure policy
+Policies and notices
+USA.gov

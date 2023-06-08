@@ -1,0 +1,124 @@
+Senescent brain cells may contribute to Alzheimer’s disease | National Institute on Aging
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+U.S. Department of Health & Human Services (HHS)
+National Institutes of Health (NIH)
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Menu
+Search
+Search
+Health Information
+A-Z Health Topics
+Alzheimer's & Related Dementias
+Caregiving
+Cognitive Health
+End of Life
+Exercise and Physical Activity
+Healthy Eating
+Español
+Get Print Publications
+Infographics
+Resources for Health Care Professionals
+Research & Funding
+All Research & Funding
+Blog - Inside NIA
+Clinical Trials
+Training & Career Development
+Grants & Funding
+Health Disparities Research
+Research Resources
+Labs at NIA
+Division of Aging Biology
+Division of Behavioral and Social Research
+Division of Geriatrics and Clinical Gerontology
+Division of Neuroscience
+Division of Extramural Activities
+Quick Links
+NIA-Specific Funding Policies
+Scientific Review
+Small Business Program
+Training Opportunities for Special Populations
+Alzheimer's Disease and Related Dementias Funding Announcements
+News & Events
+All News & Events
+News Releases
+Announcements
+Events
+Research Highlights
+Multimedia
+Quick Links
+Media Inquiries
+Alzheimer’s & Related Dementias Press Kit
+About NIA
+All About NIA
+Budget & Testimony
+Strategic Directions
+National Advisory Council on Aging (NACA)
+Advances in Aging and Alzheimer's Research
+Scientific Workforce Diversity
+Staff Directory
+Careers
+Student Resources
+Connect with NIA
+Contact NIA
+Español
+Search
+Search
+Breadcrumb
+Home
+News & Events
+Senescent brain cells may contribute to Alzheimer’s disease
+Research Highlights
+Senescent brain cells may contribute to Alzheimer’s disease
+May 26, 2022
+Aging BiologyNeuroscienceAlzheimer's DiseaseBiomarkersCognitive Health
+People with Alzheimer’s have more senescent brain cells than those without this disease, a new study shows. Senescent cells, which are damaged cells in the body that do not die off when they should, have been linked to many aspects of aging and disease. The new results, published in Nature Aging, show that these neurons have high levels of tau, a protein that forms tangles in the brains of people with Alzheimer’s. The study was led by researchers at NIA-supported Alzheimer’s Disease Research Centers at the Wake Forest University School of Medicine and the University of Texas Health Science Center at San Antonio.
+Every day, damaged cells die off and are replaced by new, healthy cells. As we age, the body may not remove damaged cells as efficiently as it used to, and although these cells stop dividing, they do not die off. These damaged cells that linger, called senescent cells, can release chemicals that harm the healthy cells around them. But not all senescent cells are destructive, rather, some are also involved in several normal processes in the body. Many scientists are studying senescent cells further to better understand how they affect our health.
+Studies using animal models have shown that senescent cells play a role in neurodegeneration and cognitive decline. It is challenging to study the role of these cells in these age-related brain changes in humans because senescent cells are much fewer in number than healthy cells, are often scattered throughout an organ or tissue, and do not all express the same genes. For this new study, the scientific team developed a novel approach that combines molecular biology and advanced statistical methods to identify and analyze senescent cells in the donated brains of people who died with Alzheimer’s.
+The researchers analyzed about 140,000 brain cells taken from 76 autopsied brain samples of people who had Alzheimer’s. The scientists compared these samples with autopsied samples from people without the disease. To identify senescent cells, the researchers measured the levels of RNA from three groups of genes involved in processes that are hallmarks of senescence, including inflammation, a halt in cell division, and the body’s response to stress. Measuring these RNA levels provided estimates of the amounts of multiple proteins linked to senescence in individual cells.
+The researchers found that about 2% of the cells in brain samples from people who had Alzheimer’s were senescent. Almost all these cells were neurons, which are specialized brain cells that process and transmit messages between different parts of the brain, and from the brain to the muscles and organs of the body. The senescent neurons had high levels of neurofibrillary tangles, which build up when an abnormal form of the tau protein accumulates inside neurons and causes damage to the neurons. These tangles are one of the hallmarks of Alzheimer’s. The senescent neurons also had high levels of a protein called cyclin-dependent kinase inhibitor 2D (CDKN2D/p19), which helps control whether a cell divides. Like other senescent cells, the senescent neurons had larger nuclei than healthy cells, and the senescent neurons with neurofibrillary tangles had even larger nuclei.
+The new study’s results suggest that drugs that target senescent cells might be effective treatment options for Alzheimer’s. Future studies using this newly developed technique could also help researchers identify and analyze senescent cells in other tissues and organs.
+This research was supported in part by NIA grants R01AG068293, R01AG057896, U01AG046170, RF1AG057440, R01AG057907, K99AG061259, P30AG062421, RF1AG051485, R21AG059176, RF1AG059082, T32AG021890, RF1AG57473, P30AG10161, R01AG15819, R01AG17917, U01G46152, U01AG61356, and RF1AG059082.
+These activities relate to NIA’s AD+ADRD Research Implementation Milestone 2.A, “Create new research programs that use data-driven, systems-based approaches to integrate the study of fundamental biology of aging with neurobiology of aging and research on neurodegeneration, AD and AD-related dementias to better understand the mechanism(s) of vulnerability and resilience in AD across all levels of biologic complexity (from cellular to population level) and to gain a deeper understanding of the complex biology and integrative physiology of healthy and pathologic brain aging.”
+Dehkordi SK, et al. Profiling senescent cells in human brains reveals neurons with CDKN2D/p19 and tau neuropathology. Nature Aging. 2021;1:1107-1116. doi: 10.1038/s43587-021-00142-3.
+Latest News
+Could “musical medicine” influence healthy aging?
+05/25/2023
+Return to top
+Quick links
+A-Z health topics
+Clinical trials
+Careers
+Research divisions & contacts
+Staff directory
+Workforce diversity
+NIH COVID-19 information
+Contact NIA
+niaic@nia.nih.gov
+800-222-2225
+Contact us
+Follow us
+Facebook
+Twitter
+LinkedIn
+YouTube
+Newsletters
+Sign up to receive updates and resources delivered to your inbox.
+Sign up
+nia.nih.gov
+An official website of the National Institutes of Health
+Accessibility support
+FOIA requests
+No FEAR Act data
+Office of the Inspector General
+Performance reports
+Vulnerability disclosure policy
+Policies and notices
+USA.gov

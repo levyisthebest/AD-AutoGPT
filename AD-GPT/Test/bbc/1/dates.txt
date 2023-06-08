@@ -1,0 +1,7 @@
+('29%', datetime.datetime(2023, 5, 29, 0, 0))
+('35%', datetime.datetime(2035, 5, 29, 0, 0))
+('set', datetime.datetime(2035, 9, 29, 0, 0))
+('any', datetime.datetime(2035, 9, 29, 0, 0))
+('1-2%', datetime.datetime(2035, 1, 2, 0, 0))
+('£21', datetime.datetime(2035, 1, 21, 0, 0))
+('2023', datetime.datetime(2023, 1, 21, 0, 0))

@@ -1,0 +1,135 @@
+Scientists uncover a possible genetic tie between brain blood vessel damage and Alzheimer’s disease | National Institute on Aging
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+U.S. Department of Health & Human Services (HHS)
+National Institutes of Health (NIH)
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Menu
+Search
+Search
+Health Information
+A-Z Health Topics
+Alzheimer's & Related Dementias
+Caregiving
+Cognitive Health
+End of Life
+Exercise and Physical Activity
+Healthy Eating
+Español
+Get Print Publications
+Infographics
+Resources for Health Care Professionals
+Research & Funding
+All Research & Funding
+Blog - Inside NIA
+Clinical Trials
+Training & Career Development
+Grants & Funding
+Health Disparities Research
+Research Resources
+Labs at NIA
+Division of Aging Biology
+Division of Behavioral and Social Research
+Division of Geriatrics and Clinical Gerontology
+Division of Neuroscience
+Division of Extramural Activities
+Quick Links
+NIA-Specific Funding Policies
+Scientific Review
+Small Business Program
+Training Opportunities for Special Populations
+Alzheimer's Disease and Related Dementias Funding Announcements
+News & Events
+All News & Events
+News Releases
+Announcements
+Events
+Research Highlights
+Multimedia
+Quick Links
+Media Inquiries
+Alzheimer’s & Related Dementias Press Kit
+About NIA
+All About NIA
+Budget & Testimony
+Strategic Directions
+National Advisory Council on Aging (NACA)
+Advances in Aging and Alzheimer's Research
+Scientific Workforce Diversity
+Staff Directory
+Careers
+Student Resources
+Connect with NIA
+Contact NIA
+Español
+Search
+Search
+Breadcrumb
+Home
+News & Events
+Scientists uncover a possible genetic tie between brain blood vessel damage and Alzheimer’s disease
+Research Highlights
+Scientists uncover a possible genetic tie between brain blood vessel damage and Alzheimer’s disease
+November 03, 2022
+NeuroscienceAlzheimer's DiseaseDementias
+High blood pressure, diabetes, heart disease, and obesity are risk factors that may raise a person’s chances of experiencing the type of brain blood vessel damage that often underlies strokes and other neurovascular disorders. A gene called FMNL2 may play a critical role in linking these factors to the brain damage seen in some cases of Alzheimer’s disease, according to an NIA-funded study by Columbia University researchers.
+Reshaping the blood-brain barrier during Alzheimer’s
+NIA-funded scientists found that a gene called FMNL2 may tie cerebrovascular risk factors to Alzheimer’s disease. Experiments in zebrafish suggested that FMNL2 helps reshape the protective blood-brain barrier during Alzheimer’s. Courtesy of Mayeux lab, Columbia University Irving Medical Center.FMNL2 encodes a protein that is known to help build the structures (known as cytoskeletons) found in cells throughout the body. The findings, published in Acta Neuropathologica, suggest that in Alzheimer’s, FMNL2 helps reshape a protective barrier between the brain and blood vessels, and that this process may speed the removal of damaging proteins.
+For decades, some scientists have strongly suspected that Alzheimer’s is, in many ways, a blood vessel disorder. About 70% of patients show signs of the types of brain blood vessel damage often observed after strokes, and many of the risk factors that raise the chances of developing heart disease do the same for Alzheimer’s. In this new study, the researchers searched for clues as to how these factors may interact with one’s genes to elevate the chances of experiencing Alzheimer’s.
+To this end, they analyzed the health and genomic data of 14,669 individuals of diverse racial and ethnic backgrounds who participated in several aging and Alzheimer’s studies conducted across the United States. The average age of the participants was approximately 80 years old, and nearly 38% had been diagnosed with Alzheimer’s.
+First, the researchers used four factors to calculate a cerebrovascular risk score: diabetes; heart disease; obesity; and hypertension, which is sometimes called high blood pressure. Multiple previous studies have indicated these factors are often associated with experiencing strokes and other cerebrovascular diseases, as well as with Alzheimer’s.
+In this study, about 70% of the participants had hypertension, 33% had heart disease, and 21% had diabetes. Based on body mass index scores, the average participant could also be classified as obese. Hypertension and diabetes were both highly correlated with and strongly influenced the Alzheimer’s risk scores.
+Next, the team used several advanced data analysis techniques to test how the risk factors may combine with each gene on an individual’s chromosomes. They consistently found that the FMNL2 gene interacted the most with the cerebrovascular risk factors to raise Alzheimer’s risk.
+Further support for this idea evolved when the scientists examined autopsied brain tissue. The brains of Alzheimer’s patients had high levels of the FMNL2 proteins surrounding blood vessels. The proteins appeared concentrated in astrocytes, which are star-shaped brain cells that line the blood-brain barrier. The blood-brain barrier prevents pathogens and toxins, which circulate throughout the blood system, from entering the brain.
+In the brains of people who had died with Alzheimer’s, some astrocytes appeared “reactive” — in other words, in a diseased state — and detached from the barrier. The researchers observed these findings regardless of whether the person had been diagnosed with atherosclerosis, a disease that hardens blood vessels. In contrast, in the brains of age-matched control subjects without Alzheimer’s, FML2 proteins appeared sparsely, the astrocytes looked healthy, and the blood-brain barriers were intact.
+The researchers saw similar signs of damage in the brains of mice that had been genetically engineered to mimic certain aspects of Alzheimer’s, supporting the idea that these changes may be a common reaction to the disease.
+Finally, experiments in zebrafish suggested that the reaction may be triggered by the accumulation of beta-amyloid, a protein thought to play a key role in damaging the brain during Alzheimer’s. Injections of beta-amyloid resulted in high levels of FMNL2 protein appearing in astrocytes, many of which had detached from the blood-brain barrier.
+Interestingly, these changes may help the brain remove beta-amyloid. For instance, genetically turning off FMNL2 gene activity in astrocytes resulted in higher levels of injected beta-amyloid accumulation in zebrafish brains.
+Overall, the results suggest that FMNL2 and other genes involved with blood-brain-barrier maintenance may be important candidates for developing new treatments that can counteract the damage caused by Alzheimer’s, especially in those who experience cerebrovascular risk factors.
+The National Alzheimer’s Coordinating Center (NACC) provided some of the data for this study. NACC provides researchers with free, standardized clinical and neuropathological data collected from NIA’s Alzheimer’s Disease Research Centers.
+This research was supported in part by NIH grants RF1AG054023, R01AG067501, RF1AG066107, R01AG072474, P30AG010161, R01AG15819, R01AG17917, U01AG61356, R01AG036836, U01AG046152.
+These activities relate to:
+NIA’s AD+ADRD Research Implementation Milestone 1.A, “Enable precision medicine research by supporting deep and longitudinal molecular endophenotyping of existing and new at-risk cohorts as well as cohorts and/or individuals who resist disease despite high genetic risk (e.g. Down Syndrome, ApoE 4 homozygous, FAD mutation carriers).”
+NIA’s AD+ADRD Research Implementation Milestone 2.A, “Create new research programs that use data-driven, systems-based approaches to integrate the study of fundamental biology of aging with neurobiology of aging and research on neurodegeneration, AD and AD-related dementias to better understand the mechanism(s) of vulnerability and resilience in AD across all levels of biologic complexity (from cellular to population level) and to gain a deeper understanding of the complex biology and integrative physiology of healthy and pathologic brain aging.”
+Reference: Lee AJ, et al. FMNL2 regulates gliovascular interactions and is associated with vascular risk factors and cerebrovascular pathology in Alzheimer’s disease. Acta Neuropathologica. 2022. Epub May 24. doi: 10.1007/s00401-022-02431-6.
+Latest News
+Could “musical medicine” influence healthy aging?
+05/25/2023
+Return to top
+Quick links
+A-Z health topics
+Clinical trials
+Careers
+Research divisions & contacts
+Staff directory
+Workforce diversity
+NIH COVID-19 information
+Contact NIA
+niaic@nia.nih.gov
+800-222-2225
+Contact us
+Follow us
+Facebook
+Twitter
+LinkedIn
+YouTube
+Newsletters
+Sign up to receive updates and resources delivered to your inbox.
+Sign up
+nia.nih.gov
+An official website of the National Institutes of Health
+Accessibility support
+FOIA requests
+No FEAR Act data
+Office of the Inspector General
+Performance reports
+Vulnerability disclosure policy
+Policies and notices
+USA.gov

@@ -1,0 +1,123 @@
+Personality and mortality linked to number of mitochondrial DNA in blood | National Institute on Aging
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+U.S. Department of Health & Human Services (HHS)
+National Institutes of Health (NIH)
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Menu
+Search
+Search
+Health Information
+A-Z Health Topics
+Alzheimer's & Related Dementias
+Caregiving
+Cognitive Health
+End of Life
+Exercise and Physical Activity
+Healthy Eating
+Español
+Get Print Publications
+Infographics
+Resources for Health Care Professionals
+Research & Funding
+All Research & Funding
+Blog - Inside NIA
+Clinical Trials
+Training & Career Development
+Grants & Funding
+Health Disparities Research
+Research Resources
+Labs at NIA
+Division of Aging Biology
+Division of Behavioral and Social Research
+Division of Geriatrics and Clinical Gerontology
+Division of Neuroscience
+Division of Extramural Activities
+Quick Links
+NIA-Specific Funding Policies
+Scientific Review
+Small Business Program
+Training Opportunities for Special Populations
+Alzheimer's Disease and Related Dementias Funding Announcements
+News & Events
+All News & Events
+News Releases
+Announcements
+Events
+Research Highlights
+Multimedia
+Quick Links
+Media Inquiries
+Alzheimer’s & Related Dementias Press Kit
+About NIA
+All About NIA
+Budget & Testimony
+Strategic Directions
+National Advisory Council on Aging (NACA)
+Advances in Aging and Alzheimer's Research
+Scientific Workforce Diversity
+Staff Directory
+Careers
+Student Resources
+Connect with NIA
+Contact NIA
+Español
+Search
+Search
+Breadcrumb
+Home
+News & Events
+Personality and mortality linked to number of mitochondrial DNA in blood
+Research Highlights
+Personality and mortality linked to number of mitochondrial DNA in blood
+February 23, 2023
+Aging BiologyMental & Emotional HealthLongevityBiomarkers
+Certain personality traits correspond with the number of mitochondrial DNA molecules in a person’s blood, and both factors are good predictors of mortality. A team led by NIA researchers found that having a higher number of mitochondrial DNA molecules was associated with a lower incidence of neuroticism and depression and a longer lifespan. The research, published in eLife, provides solid evidence of an association between mitochondrial DNA copy number and personality.
+In this study, researchers compared personality test results and medical records of participants in the Baltimore Longitudinal Study of Aging (BLSA), the nation’s longest-running study of human aging. The team used genome sequencing technology to determine the mitochondrial DNA copy number from blood samples taken from 722 BLSA participants. A mitochondrial DNA copy number is a measure of genetic material found inside mitochondria, the energy-producing structures of a cell that have their own DNA molecules.
+Next, the researchers matched this data to participants’ results on the Revised NEO Personality Inventory (NEO-PI-R), a psychometric assessment tool that tests five aspects, or types, of personality: neuroticism, extraversion, openness, agreeableness, and conscientiousness. Each personality trait has six subcategories called facets. The researchers determined that a higher mitochondrial DNA copy number was associated with higher levels of extraversion, openness, agreeableness, and conscientiousness, but lower levels of neuroticism and a lower risk of depression and early death.
+While the findings from the American study group were intriguing, the team wanted to examine whether they were consistent in adults from another country. The scientists utilized the same protocol for 587 participants in the SardiNIA Project, a collaboration between NIA and Italian scientists to understand genetic processes involved in age-related diseases and longevity in residents of Sardinia, Italy. They obtained similar results.
+Next, the researchers extended their analysis to include four facets by creating a personality-mortality index (PMI). The four facets with their traits included vulnerability (neuroticism), self-discipline (conscientiousness), activity (extraversion), and competence (conscientiousness), all of which were known to be associated with risk of mortality. The new analysis showed that the blood mitochondrial DNA copy number served as a “mediator” in the association between PMI and mortality risk, suggesting that personality traits affect mitochondrial DNA copy number, which in turn influences mortality.
+The study establishes a strong connection between personality traits and a biological parameter objectively measured in blood. It also shows mitochondrial measures have a biological impact on health by mediating the well-known relationship between personality and lifespan variability. Although specific mechanisms for these associations are unknown, these findings have substantial practical implications. For instance, are specific behaviors associated with distinct personalities the result of biological effects? Can these effects be reversed? Overall, the work adds to the growing body of evidence that suggests mitochondrial DNA levels may be involved in the development of psychological conditions, such as major depression and bipolar disorder, and longevity.
+This research was supported in part by NIA projects ZIAAG000693, Z01AG000949, and ZIAAG000970, and NIA grant R01AG068093.
+Reference: Oppong RF, et al. Personality traits are consistently associated with blood mitochondrial DNA copy number estimated from genome sequences in two genetic cohort studies. eLife. 2022. Epub Dec. 20. doi: 10.7554/eLife.77806.
+Latest News
+Could “musical medicine” influence healthy aging?
+05/25/2023
+Return to top
+Quick links
+A-Z health topics
+Clinical trials
+Careers
+Research divisions & contacts
+Staff directory
+Workforce diversity
+NIH COVID-19 information
+Contact NIA
+niaic@nia.nih.gov
+800-222-2225
+Contact us
+Follow us
+Facebook
+Twitter
+LinkedIn
+YouTube
+Newsletters
+Sign up to receive updates and resources delivered to your inbox.
+Sign up
+nia.nih.gov
+An official website of the National Institutes of Health
+Accessibility support
+FOIA requests
+No FEAR Act data
+Office of the Inspector General
+Performance reports
+Vulnerability disclosure policy
+Policies and notices
+USA.gov

@@ -1,0 +1,128 @@
+Alzheimer’s tied to cholesterol, abnormal nerve insulation | National Institute on Aging
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+U.S. Department of Health & Human Services (HHS)
+National Institutes of Health (NIH)
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Menu
+Search
+Search
+Health Information
+A-Z Health Topics
+Alzheimer's & Related Dementias
+Caregiving
+Cognitive Health
+End of Life
+Exercise and Physical Activity
+Healthy Eating
+Español
+Get Print Publications
+Infographics
+Resources for Health Care Professionals
+Research & Funding
+All Research & Funding
+Blog - Inside NIA
+Clinical Trials
+Training & Career Development
+Grants & Funding
+Health Disparities Research
+Research Resources
+Labs at NIA
+Division of Aging Biology
+Division of Behavioral and Social Research
+Division of Geriatrics and Clinical Gerontology
+Division of Neuroscience
+Division of Extramural Activities
+Quick Links
+NIA-Specific Funding Policies
+Scientific Review
+Small Business Program
+Training Opportunities for Special Populations
+Alzheimer's Disease and Related Dementias Funding Announcements
+News & Events
+All News & Events
+News Releases
+Announcements
+Events
+Research Highlights
+Multimedia
+Quick Links
+Media Inquiries
+Alzheimer’s & Related Dementias Press Kit
+About NIA
+All About NIA
+Budget & Testimony
+Strategic Directions
+National Advisory Council on Aging (NACA)
+Advances in Aging and Alzheimer's Research
+Scientific Workforce Diversity
+Staff Directory
+Careers
+Student Resources
+Connect with NIA
+Contact NIA
+Español
+Search
+Search
+Breadcrumb
+Home
+News & Events
+Alzheimer’s tied to cholesterol, abnormal nerve insulation
+Research Highlights
+Alzheimer’s tied to cholesterol, abnormal nerve insulation
+December 07, 2022
+Alzheimer's DiseaseDementias
+From NIH Research Matters
+The protein apolipoprotein E (APOE) plays a key role throughout the body. It helps to transport cholesterol and other fatty molecules, or lipids. The gene that produces APOE comes in a few different varieties. The most common is called APOE3.
+The most notorious is APOE4, which has long been linked to an increased risk of dementia in Alzheimer’s disease. People who inherit one copy of the APOE4 gene have up to a fourfold greater risk of developing Alzheimer’s dementia. Inheriting two copies of APOE4 elevates the risk up to 12-fold. But despite years of study, scientists have little understanding of how APOE4 affects the human brain and boosts dementia risk.
+Earlier research by Dr. Li-Huei Tsai of the Massachusetts Institute of Technology and others found that APOE4 might raise Alzheimer’s risk by altering lipid metabolism in certain brain cells. But the underlying details of the process remained unclear.
+To build on these findings, the team conducted a multipronged study that assessed gene activity of all major cell types in postmortem human brain tissue from 32 men and women who had one, two, or no copies of the APOE4 gene. Results were published in Nature on Nov. 16, 2022.
+The researchers found that APOE4 affected gene expression across all measured cell types. The team then took a closer look at genes related to cholesterol and other lipids. Cholesterol-manufacturing genes were overly expressed, and cholesterol-transporting genes dysregulated, in brain cells called oligodendrocytes with the APOE4 gene. Oligodendrocytes are found in the brain and spinal cord. They make and maintain a fatty substance called myelin that surrounds and insulates long nerve fibers. The abnormalities were more extreme in oligodendrocytes with two copies of APOE4 rather than one.
+To better understand how APOE4 affects oligodendrocytes, the scientists created laboratory cultures of the cells with and without the APOE4 gene. Oligodendrocytes with APOE4 tended to accumulate abnormal amounts of cholesterol within their cells, rather than using it to make healthy myelin sheaths around nerve fibers. When the scientists examined postmortem human brains, they noted that myelin sheaths tended to be fewer and thinner in brains that carried the APOE4 gene.
+The scientists next used model systems to test whether APOE4-related abnormalities might be reversed via drugs that affect cholesterol processing. They found that a drug called cyclodextrin, which promotes cholesterol transport, reduced cholesterol buildup and improved myelin sheath formation in cultured oligodendrocytes. It did the same in mice with two copies of APOE4. The mice also performed slightly better in learning and memory tasks after treatment with the drug.
+These findings open new avenues for exploring the underlying mechanisms of Alzheimer’s dementia and for designing potential therapeutics.
+“It’s encouraging that we’ve seen a way to rescue oligodendrocyte function and myelination in lab and mouse models,” Tsai says. “I feel that lipid dysregulation could be very fundamental biology underlying a lot of the pathology we observe.”
+— by Vicki Contie
+This research was supported in part by NIA grants RF1-AG062377, RF1-AG054012-01, RF1-AG0540124, and R01-AG058002.
+Reference: Blanchard JW, et al. APOE4 impairs myelination via cholesterol dysregulation in oligodendrocytes. Nature. 2022. Epub Nov. 16. doi: 10.1038/s41586-022-05439-w.
+Latest News
+Could “musical medicine” influence healthy aging?
+05/25/2023
+Return to top
+Quick links
+A-Z health topics
+Clinical trials
+Careers
+Research divisions & contacts
+Staff directory
+Workforce diversity
+NIH COVID-19 information
+Contact NIA
+niaic@nia.nih.gov
+800-222-2225
+Contact us
+Follow us
+Facebook
+Twitter
+LinkedIn
+YouTube
+Newsletters
+Sign up to receive updates and resources delivered to your inbox.
+Sign up
+nia.nih.gov
+An official website of the National Institutes of Health
+Accessibility support
+FOIA requests
+No FEAR Act data
+Office of the Inspector General
+Performance reports
+Vulnerability disclosure policy
+Policies and notices
+USA.gov

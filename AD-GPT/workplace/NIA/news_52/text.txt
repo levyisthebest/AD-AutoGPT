@@ -1,0 +1,171 @@
+Adopting healthy habits: What do we know about the science of behavior change? | National Institute on Aging
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+U.S. Department of Health & Human Services (HHS)
+National Institutes of Health (NIH)
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Menu
+Search
+Search
+Health Information
+A-Z Health Topics
+Alzheimer's & Related Dementias
+Caregiving
+Cognitive Health
+End of Life
+Exercise and Physical Activity
+Healthy Eating
+Español
+Get Print Publications
+Infographics
+Resources for Health Care Professionals
+Research & Funding
+All Research & Funding
+Blog - Inside NIA
+Clinical Trials
+Training & Career Development
+Grants & Funding
+Health Disparities Research
+Research Resources
+Labs at NIA
+Division of Aging Biology
+Division of Behavioral and Social Research
+Division of Geriatrics and Clinical Gerontology
+Division of Neuroscience
+Division of Extramural Activities
+Quick Links
+NIA-Specific Funding Policies
+Scientific Review
+Small Business Program
+Training Opportunities for Special Populations
+Alzheimer's Disease and Related Dementias Funding Announcements
+News & Events
+All News & Events
+News Releases
+Announcements
+Events
+Research Highlights
+Multimedia
+Quick Links
+Media Inquiries
+Alzheimer’s & Related Dementias Press Kit
+About NIA
+All About NIA
+Budget & Testimony
+Strategic Directions
+National Advisory Council on Aging (NACA)
+Advances in Aging and Alzheimer's Research
+Scientific Workforce Diversity
+Staff Directory
+Careers
+Student Resources
+Connect with NIA
+Contact NIA
+Español
+Search
+Search
+Breadcrumb
+Home
+News & Events
+Adopting healthy habits: What do we know about the science of behavior change?
+Research Highlights
+Adopting healthy habits: What do we know about the science of behavior change?
+October 04, 2022
+LongevityBehavioral & Social Research
+For many people, living a long, healthy life can be attributed to adopting and maintaining healthy behaviors. NIA-funded researchers are looking at mechanisms that can help make behavioral interventions more successful for everyone.
+On this page:
+Understanding behavioral interventions
+Studying mechanisms of behavior change
+Self-regulation: Modifying or controlling your own behavior
+Stress reactivity and the role of coping in behavior change
+Social support: Improving health behavior through social connections
+Tips to help sustain behavior change
+What’s next in research
+Adopting and maintaining healthy behaviors increases the chances of living a long, healthy life, and engaging in unhealthy behaviors can have the opposite effect. Seven out of 10 deaths in the United States are the result of chronic diseases, which for many people can be prevented by eating well, staying physically active, avoiding tobacco use and excessive drinking, and getting regular health screenings. But simply knowing these facts isn’t enough to motivate most people to adopt long-lasting behavior change. Why is that?
+If you’ve ever tried to start a new exercise routine or eat healthier, you may have found it was more challenging to keep up with than you anticipated. According to Donald Edmondson, Ph.D., principal investigator of the Resource and Coordinating Center for the NIH Science of Behavior Change (SOBC) program, “Keeping behavior changes long enough to experience the benefits is incredibly hard.”
+Behavior change requires letting go of old habits and adopting new ones, which is not always easy. However, what makes behavior change challenging for one person likely won’t be the same for someone else. Whether or not a person can maintain behavior change over time relies on different factors, too. For example, a person’s environment, workplace, and home life can make behavior change more or less likely to be successful.
+Over the years, scientists have identified tactics for adopting healthier behaviors, such as wearing a watch to track your steps or keeping healthier foods in the home. However, these interventions don’t seem to work for everyone. Even when an approach is effective, the underlying mechanisms — why and how it works — often aren’t clear. Understanding these mechanisms could be the key to achieving effective and long-term behavior change for many people.
+Understanding behavioral interventions
+A behavioral intervention is an intentional change in the way you do something, such as eating healthier foods or exercising regularly, that is designed to make you healthier. In general, behavioral interventions use different ways of thinking, feeling, acting, or relating with others to stimulate a change in a person’s behavior to promote their health and well-being. For example, a behavioral intervention could be aimed at modifying something about a person’s living environment or diet, with the goal of improving their health.
+It seems straightforward to assume that if someone wears a pedometer and adds 30 minutes of exercise to their day, they’re likely to notice changes in their body and overall health. The problem, however, is that even if this intervention is effective, we don’t fully understand how or why it worked for this individual. Did they set goals for daily step counts and enjoy the challenge of improving over time? Did the pedometer show them how sedentary they are normally, causing them to feel embarrassed?
+If we don’t understand how an intervention worked, then we will not know if it will work for another person. And if several possible interventions are options, we will not know which one will work best for a specific individual. Learning more about the many underlying influences on behavior change can help researchers and health care professionals develop and provide more effective interventions.
+Researchers involved in the SOBC Research Network — including scientists from NIA — are dedicated to discovering what underlies successful behavior change. The ultimate goal is to develop effective interventions that work consistently. Janine Simmons, Ph.D., chief of the Individual Behavioral Processes Branch in the NIA Division of Behavioral and Social Research, works closely with the SOBC program.
+“Through the SOBC initiative, we are moving behavioral intervention research forward via an experimental medicine approach designed to identify the key mechanisms underlying changes in behavior,” Simmons said. “Investigators can use this approach to design experiments that answer questions about how and why a given intervention might, or might not, elicit positive health behavior change.”
+Studying mechanisms of behavior change
+How does the experimental medicine method work? Researchers first identify an underlying mechanism that may drive a certain behavior. They then develop tools to measure that mechanism and test potential interventions to change it. In the example of the pedometer, the mechanism driving behavior change might be “awareness of steps.” The researchers would first measure awareness, and then test an intervention like wearing a pedometer daily.
+If the person’s behavior changes (in this case, they increase their physical activity), the researchers would need to determine whether the change resulted from the mechanism (increased awareness of steps). Then, they can be confident that the mechanism is an effective target for behavior change interventions.
+Additionally, knowing which interventions worked in one area could allow for them to be adapted and applied to many other areas.
+“The SOBC program is about connecting basic scientists and scientists from different subfields of behavioral psychological work. It’s important to be able to leverage years of work in a basic behavioral lab to help intervention scientists to rapidly build successful behavioral change interventions — or report failures back to the basic lab for further research,” said Edmondson.
+To date, SOBC researchers have identified three broad domains that show promise as potentially powerful mechanisms of behavior change: self-regulation, stress reactivity and coping, and social support.
+Self-regulation: Modifying or controlling your own behavior
+Self-regulation has been studied widely for years. It refers to the extent to which people are able to monitor and control their own behaviors, thoughts, and feelings to achieve their goals.
+One example of a self-regulation mechanism is called “delay discounting.” Every day, individuals must make trade-offs between short-term and long-term benefits. For example, do I want to relax and watch TV or go for a run to help improve my future cardiovascular health? Delay discounting, also known as “temporal discounting,” is a way to quantify how much an individual weighs smaller, short-term rewards (relaxing watching TV) versus larger, long-term rewards (cardiovascular fitness is a major factor in how long we live and the quality of our lives). A person with a high “discounting rate” places lower value on rewards that occur in the future, and a correspondingly higher value on rewards they will experience right away, because they “discount” the future rewards more steeply. Discounting the future can make a lot of sense when quick action is needed; however, there may be a downside when it comes to choosing and maintaining healthy behaviors over time.
+Researchers are exploring the concept of delay discounting as a mechanism for improving health behavior. Research shows that the extent to which individuals discount the value of delayed rewards may be associated with important health- and disease-related outcomes — essentially, the more highly people value immediate, less healthy rewards, the more unhealthy or problematic decisions they make. If scientists could design interventions to help people recognize and better appreciate the value of long-term rewards, they could help us make better, healthier decisions in the moment.
+A recent review considered 98 studies that tested different behavioral interventions to help reduce delay discounting. The review found that several interventions led to improved decision-making. Among the most promising avenues to reduce delay discounting are acceptance- and mindfulness-based trainings. These approaches focus on experiencing and accepting the present moment, even when it’s uncomfortable. However, the authors of the review noted that the success of many behavioral interventions appears to be short-lived. And their effectiveness is often dependent on the context in which they’re delivered — in other words, they won’t work for everyone or in every situation.
+A related intervention that may improve delay discounting is simply asking people to vividly imagine or simulate experiences that might happen in their future, like playing with their grandchildren or the day of their retirement. This approach is known as episodic future thinking.
+“What we’ve found is that this type of thinking shifts how much [a person] values future things relative to the present state, so it’s sort of like opening the cognitive window to the future, where long-term benefits will be extremely valuable,” said Edmondson.
+How might episodic future thinking affect a person’s ability to maintain behavior change? If an intervention strengthens specific cognitive and neural mechanisms in the brain that support a more balanced valuing of the future and the present, then it may improve decision-making and self-regulation skills. An example of an intervention using episodic future thinking would be sending a person a text twice a day asking them to think about their ideal future for a few minutes. This intervention might lead them to make better short-term decisions in support of making that ideal future a reality.
+Stress reactivity and the role of coping in behavior change
+There’s no question that everyone experiences stress, but how people cope with stressors can have a major impact on their health. An individual’s mental, emotional, and physical health can be affected both by external stressors, such as job loss or the death of a loved one, and by the subjective experience of stress — the internal feeling that one does not have the capacity to cope with life’s stressors. Uncontrolled stress can also lead to negative health outcomes, including high blood pressure and cardiovascular disease.
+Individuals vary in their levels of stress reactivity; that is, their mental, emotional, and physical reactions to stress. These differences may help to explain why stress affects some people’s health behaviors more than others, even when they encounter the same stressor, such as the death of a loved one. What if we could minimize stress reactivity and increase the ability to cope and adapt under stressful situations? Would that make a difference in health outcomes?
+One mechanism being studied in this area is anxiety sensitivity. Anxiety sensitivity refers to fears of anxiety-related sensations (such as stomach pain or racing thoughts) based on catastrophic beliefs about what those sensations mean. For example, anxiety sensitivity might lead someone with a feeling of chest tightening to worry that they’re having a heart attack. As a result, the person may avoid certain activities, such as physical exercise, that might produce that feeling. Or they may overeat or use alcohol to cope with the anxiety. In these ways, anxiety sensitivity can negatively affect a person’s health and well-being.
+In fact, anxiety sensitivity is linked to some of the top preventable causes of disease and death in the U.S., including tobacco use, poor diet, physical inactivity, and alcohol overuse. It has also been linked to poor medication adherence, which happens when people don’t take their medicines in the right way or at the right time. Understanding the scope of these effects has clear public health significance.
+A recent meta-analysis found that anxiety sensitivity and associated health outcomes, such as depression, insomnia, alcohol use, and pain, can be improved with brief behavioral interventions, for example, cognitive behavioral therapy, that target anxiety sensitivity. Another study looked at anxiety sensitivity as a possible mechanism linking exercise and smoking cessation. Specifically, the researchers wanted to find out whether physical exercise could help people with high anxiety sensitivity quit smoking successfully. The study found that participants who did high-intensity exercise were more likely to quit smoking than those who did not exercise, and that their success was related to having lower anxiety sensitivity
+“We’re seeing some of these interventions improve people’s fear of their bodily reactions to anxiety,” said Edmondson. He added that scientists at the Columbia Roybal Center for Fearless Behavior Change are testing interventions “to determine whether reducing anxiety sensitivity leads to healthy behavior change — better medication adherence and better physical activity, which is really exciting.”
+Social support: Improving health behavior through social connections
+It has been recognized for decades that social networks influence behavior, and researchers are still learning how relationships shape an individual’s health behaviors. We know that many of our norms, expectations, and preferences come to us from our community and the people we spend time with. However, knowing where and how to intervene in a social network to optimize behavior change is still a challenge for scientists. At the most basic level, one way to extend the reach of a given behavioral intervention may be to adapt the intervention to take advantage of interpersonal relationships and the influence of others in a social network.
+One study looked at the effects of social support and examined whether a weight loss program delivered to one spouse had beneficial effects on the spouse who didn’t participate. The study found that the untreated spouses — despite not participating in the weight loss program directly — lost a significant amount of weight. Although future research using the experimental medicine approach is required to identify the precise mechanism, the researchers suggested that spouses who directly received the intervention may have modeled health-promoting behaviors, such as weighing themselves regularly, for their spouses, and that they were less likely to have high-fat foods in the home during the program versus before. The findings of this research suggest that behavioral interventions for weight loss can create a “ripple effect” that benefits others, and that behavioral modeling and reduced access to high-fat foods are two potential mechanisms of behavior change to test in studies of these effects.
+Another study analyzed data from more than 4,000 Americans aged 60 and older to help understand the connection between social relationships and health-related behaviors. Researchers found that social factors were associated with the likelihood of several different health-related behaviors, including alcohol use, smoking, physical activity, and visiting the dentist. The study showed that older adults with strong social ties, such as being married, living with a partner, or having a group of close friends, were more likely to engage in health-promoting behaviors than people with fewer social ties. These social relationships may benefit health in older adults by helping them cope with stress, providing emotional support, and encouraging them to adopt healthier behaviors.
+What does this mean? If you’re looking to eat healthier or become more physically active, it may be worth asking your spouse or friend to do it with you.
+“Researchers are beginning to examine how interactions within a social network have direct beneficial effects on health behaviors, and when we can leverage social networks to promote positive health behavior change,” said Simmons. “For example, after one partner stops smoking or starts exercising, the other is more likely to follow suit. The same pattern holds true for friends, siblings, and even co-workers."
+Tips to help sustain behavior change
+Whether you want to become more physically active, lose weight, or start another new healthy activity, these tips — based on behavior change research — may be able to help you create and maintain successful new habits:
+Practice envisioning the future. As you make decisions in everyday life, be aware of how your behavior may be driven by wanting what feels good now versus what your future self will wish you had valued.
+Manage stress. Stress can affect your ability to adopt healthy behaviors, such as physical activity or healthy eating. If you feel stressed or overwhelmed, you may be less likely to exercise, which in turn can increase your stress levels the next day — creating an unhelpful cycle. Healthy activity and diet can reduce stress, both in the short and long term, so paying attention to how good you feel right after exercise may also help reduce your delay discounting.
+Beware of avoidance. If you have a chronic condition, you may become hyper-aware of your body and start worrying that every sensation in your chest or change in your breathing rate signals catastrophe. Those anxieties about bodily sensations can become problematic not because they signal a cardiovascular event, but because they may become an excuse to avoid exercise or to eat comfort food. If you are medically cleared to exercise, it’s important to recognize that the bodily sensations associated with being active may be amplified by fear, but most do not indicate any real health problem.
+What’s next in research
+There is still a lot to learn about behavior change interventions and how they work. Scientists continue to explore these areas to help people better adopt and maintain healthy behaviors. Currently, NIH-funded researchers are investigating how an experimental medicine approach to behavior change could have an impact in two specific areas: reproductive health and willingness to receive a COVID-19 vaccine. Their innovative approach offers new opportunities to improve the health of individuals and communities.
+It's important for everyone to understand the importance and benefits of adopting and maintaining healthy behaviors — including the researchers studying them, your health care providers, your family, and yourself.
+Behavior change is fundamental to human health at any age. It is critically important for NIA to support research in this area because NIA’s mission encompasses the full adult lifespan, and many of the health choices we make earlier in life directly affect the likelihood of avoiding illnesses and maintaining wellness as we age.
+— Janine Simmons, Ph.D., chief of the Individual Behavioral Processes Branch in the NIA Division of Behavioral and Social Research
+Latest News
+Could “musical medicine” influence healthy aging?
+05/25/2023
+Return to top
+Quick links
+A-Z health topics
+Clinical trials
+Careers
+Research divisions & contacts
+Staff directory
+Workforce diversity
+NIH COVID-19 information
+Contact NIA
+niaic@nia.nih.gov
+800-222-2225
+Contact us
+Follow us
+Facebook
+Twitter
+LinkedIn
+YouTube
+Newsletters
+Sign up to receive updates and resources delivered to your inbox.
+Sign up
+nia.nih.gov
+An official website of the National Institutes of Health
+Accessibility support
+FOIA requests
+No FEAR Act data
+Office of the Inspector General
+Performance reports
+Vulnerability disclosure policy
+Policies and notices
+USA.gov

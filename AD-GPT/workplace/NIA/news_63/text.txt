@@ -1,0 +1,128 @@
+Learning to control microglia using CRISPR | National Institute on Aging
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+U.S. Department of Health & Human Services (HHS)
+National Institutes of Health (NIH)
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Menu
+Search
+Search
+Health Information
+A-Z Health Topics
+Alzheimer's & Related Dementias
+Caregiving
+Cognitive Health
+End of Life
+Exercise and Physical Activity
+Healthy Eating
+Español
+Get Print Publications
+Infographics
+Resources for Health Care Professionals
+Research & Funding
+All Research & Funding
+Blog - Inside NIA
+Clinical Trials
+Training & Career Development
+Grants & Funding
+Health Disparities Research
+Research Resources
+Labs at NIA
+Division of Aging Biology
+Division of Behavioral and Social Research
+Division of Geriatrics and Clinical Gerontology
+Division of Neuroscience
+Division of Extramural Activities
+Quick Links
+NIA-Specific Funding Policies
+Scientific Review
+Small Business Program
+Training Opportunities for Special Populations
+Alzheimer's Disease and Related Dementias Funding Announcements
+News & Events
+All News & Events
+News Releases
+Announcements
+Events
+Research Highlights
+Multimedia
+Quick Links
+Media Inquiries
+Alzheimer’s & Related Dementias Press Kit
+About NIA
+All About NIA
+Budget & Testimony
+Strategic Directions
+National Advisory Council on Aging (NACA)
+Advances in Aging and Alzheimer's Research
+Scientific Workforce Diversity
+Staff Directory
+Careers
+Student Resources
+Connect with NIA
+Contact NIA
+Español
+Search
+Search
+Breadcrumb
+Home
+News & Events
+Learning to control microglia using CRISPR
+Research Highlights
+Learning to control microglia using CRISPR
+August 24, 2022
+NeuroscienceGeneticsAlzheimer's Disease
+From NIH Research Matters
+Genetic research suggests that cells called microglia play a key role in brain diseases such as Alzheimer’s disease. Microglia help maintain the brain by clearing out damaged cells and infectious agents. They’re also supposed to get rid of the plaques associated with dementia. Genetic changes may lead to disease by causing microglia to malfunction. But how individual genes affect microglial function isn’t well understood.
+The study suggests ways to target microglia, shown here in pink among neurons, in order to treat brain diseases such as Alzheimer’s disease.CRISPR-based tools could help yield insights. These techniques allow researchers to turn specific genes on or off. CRISPR systems typically rely on RNA delivered into cells using viruses, but this has been challenging in mature microglia. One way to circumvent the problem would be to introduce all the needed CRISPR components into stem cells and then turn the cells into microglia. But conventional methods for converting stem cells to microglia take weeks to months.
+An NIH-funded team of researchers, led by Drs. Li Gan of Weill Cornell Medicine and Martin Kampmann at the University of California, San Francisco, set out to engineer human stem cells that could more quickly be converted to microglia-like cells for study. They described their work on Aug. 11, 2022, in Nature Neuroscience.
+The team developed a method to generate microglia-like cells from stem cells in eight days. They confirmed that these cells, dubbed iTF-Microglia, behaved like ordinary human microglia. They then introduced complete CRISPR systems into the stem cells before converting them into iTF-Microglia. This created iTF-Microglia in which genes could be turned off or on and studied.
+Using this approach, the team was able to identify genes that affected microglial survival and activation. They also found genes that affected the microglia’s ability to engulf nerve cell debris, a key function of microglia in the brain. Some of the genes have been associated with neurodegenerative diseases. These findings now provide further potential drug targets.
+The team also identified nine distinct microglial states based on gene activity, or expression, patterns. These states reflected the diversity of microglial states observed in human brains. Turning certain genes on or off could shift microglia from one state to the other.
+Notably, one of these states was characterized by high expression of the gene for osteopontin. Microglia associated with Alzheimer’s have been shown to have high osteopontin levels. Turning off one gene, MAPK14, increased the number of microglia in this high-osteopontin state. Turning off another gene, CSF1R, reduced the number in this state, as did treatment with a drug that blocks CSF1R.
+These findings give insight into how genetic variations might contribute to Alzheimer’s and other diseases of the brain. Therapies could target these genes to treat disease by shifting microglia from a pathogenic state to a healthy state.
+“Now, using the new CRISPR method we developed, we can uncover how to actually control these microglia, to get them to stop doing toxic things and go back to carrying out their vitally important cleaning jobs,” Kampmann says. “This capability presents the opportunity for an entirely new type of therapeutic approach.”
+— by Brian Doctrow, Ph.D.
+This research was supported in part by NIA grants R01 AG051390, F30 AG066418, F30 AG062043, and ZO1 AG000534-02.
+Reference: Dräger NM, et al. A CRISPRi/a platform in human iPSC-derived microglia uncovers regulators of disease states. Nature Neuroscience. 2022. Epub Aug. 11. doi: 10.1038/s41593-022-01131-4.
+Latest News
+Could “musical medicine” influence healthy aging?
+05/25/2023
+Return to top
+Quick links
+A-Z health topics
+Clinical trials
+Careers
+Research divisions & contacts
+Staff directory
+Workforce diversity
+NIH COVID-19 information
+Contact NIA
+niaic@nia.nih.gov
+800-222-2225
+Contact us
+Follow us
+Facebook
+Twitter
+LinkedIn
+YouTube
+Newsletters
+Sign up to receive updates and resources delivered to your inbox.
+Sign up
+nia.nih.gov
+An official website of the National Institutes of Health
+Accessibility support
+FOIA requests
+No FEAR Act data
+Office of the Inspector General
+Performance reports
+Vulnerability disclosure policy
+Policies and notices
+USA.gov

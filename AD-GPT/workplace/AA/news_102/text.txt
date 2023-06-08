@@ -1,0 +1,100 @@
+Guidance on Alzheimer's 'Blood Tests' | AAIC | alz.org
+Alzheimer’s Association International Conference | July 16-20, 2023 | Amsterdam, Netherlands, and Online
+Toggle navigation
+about
+About AAIC
+Learn about the world's largest forum for the dementia research community.
+AAIC Scientific Program Committee
+Awards
+The Student Experience
+The ISTAART Experience
+To Do in Amsterdam
+Contact Us
+Future Scientific Meetings
+abstracts
+Abstract Submission Overview
+Frequently Asked Questions
+Abstract and Session Submission Guidelines
+Developing Topics Submissions
+Conference Policies
+Abstracts Archive
+Travel and Registration Fellowships
+program
+AAIC 2022 Highlights
+Scientific Sessions
+Workshops and Preconferences
+Emerging Concepts in Basic Science
+Corporate-Sponsored Symposia
+Continuing Education
+Ancillary Meetings
+exhibit
+sponsors
+Press
+Press Room
+Request for Press Credentials
+Request for Film Crew Credentials
+registration
+PRESS RELEASE
+Alzheimer's Association Global Workgroup Releases Recommendations About Use of Alzheimer's "Blood Tests"
+«
+Back to All Press Releases
+Download the complete news release and abstracts
+Top Tier Clinicians and Researchers Find the Tests Are:
+- Full of Revolutionary Potential
+- Valuable Now For Research and Treatment Trials
+- Not Ready Yet for the Healthcare Provider’s Office
+CHICAGO and SAN DIEGO, July 31, 2022 — Alzheimer’s disease blood biomarkers (BBMs) may revolutionize the diagnosis of Alzheimer’s in the future, but are not yet ready for widespread use, according to a newly-published article by leading international clinicians and researchers convened by the Alzheimer’s Association®. At the same time, they are important and valuable for current research trials and cautious initial use in specialized memory clinics.
+“Blood-based markers show promise for improving, and possibly even redefining, the diagnostic work-up for Alzheimer’s,” said Maria C. Carrillo, Ph.D., Alzheimer’s Association chief science officer and a co-author of the article. “Remarkable progress has been made, but additional data are needed before BBMs can be used as a stand-alone test for diagnosis, and before considering broad use in primary care settings.”
+“In this article, the expert workgroup clearly defines both short- and long-term research priorities needed to fill significant knowledge gaps that still exist, such as how well these blood-based markers work in diverse communities and in those living with multiple health conditions,” Carrillo added. “Also included are consensus appropriate use recommendations for use of BBMs in the clinic and in research trials.”
+“The Alzheimer's Association Appropriate Use Recommendations for Blood Biomarkers in Alzheimer’s Disease,” by Oskar Hansson, M.D., Ph.D., et al, is published online today by Alzheimer’s & Dementia: The Journal of the Alzheimer’s Association. The recommendations will be reported today and tomorrow at the Alzheimer’s Association International Conference® (AAIC®) 2022 in San Diego and online.
+“Blood-based biomarkers for Alzheimer’s are already improving the design of clinical trials, and they are very likely to revolutionize the diagnosis of Alzheimer’s in the future,” said Oskar Hansson, M.D., Ph.D., director of the Center for Neurodegenerative Diseases at Lund University and Skane University Hospital, Malmo, Sweden, and first author on the newly published article. “That said, the implementation of such markers in trials and practice must be done in a careful and controlled way so as not to accidentally cause more harm than good. Much more research is needed before widespread clinical use of BBMs.”
+According to the article, BBMs show “great promise” — especially markers for Alzheimer’s-related brain changes related to nerve cell damage/death, and tau and beta amyloid accumulation — for “future use in both clinical practice and trials. However, few prospective studies have investigated the implementation of such BBMs in more heterogeneous populations.”
+Not ready for “prime time”
+The workgroup points out that no studies have extensively evaluated BBMs for neurodegenerative diseases in primary care, and calls for “well-performed BBM studies in diverse primary care populations.” Such studies should also evaluate the impact of BBMs on diagnostic accuracy and change in patient management.
+In addition, use of BBMs for general population risk screening and as direct-to-consumer risk tests are not recommended.
+The workgroup also says that BBMs should not yet be used as primary endpoints in pivotal treatment trials. However, this does not preclude the use of certain BBMs for decision making in clinical trials with adaptive design, where they could be used to inform decisions on continuing a trial or not.
+Many current uses
+There are current uses for Alzheimer’s BBMs, according to the workgroup. For example, they “recommend use of BBMs as (pre-)screeners to identify individuals likely to have Alzheimer’s pathological changes for inclusion in trials evaluating disease-modifying therapies, provided Alzheimer’s status is confirmed with positron emission tomography (PET) or cerebrospinal fluid (CSF) testing.”
+BBMs can be used as exploratory outcomes in most clinical trials in Alzheimer’s and other neurodegenerative dementias. In non-Alzheimer’s trials, BBMs can be used to identify patients who likely have Alzheimer’s-related brain changes, if that is a condition of exclusion from the study.
+“We also recommend cautiously starting use of BBMs in specialized memory clinics as part of the diagnostic work-up of patients already experiencing cognitive symptoms, as long as the results are confirmed whenever possible with CSF or PET, which are the current reference standards,” said Charlotte E. Teunissen, M.D., Ph.D., head of the Neurochemistry Laboratory at Amsterdam University Medical Centers, the Netherlands and senior author on the article.
+“The implementation of BBMs in primary care will likely take a much longer time because there are very few relevant and high-quality research studies on Alzheimer’s-related BBMs conducted in this setting, but more prospective studies are expected to launch in the coming years,” Teunissen added.
+Establishing the path for BBMs in research
+The appropriate use recommendations (AURs) provide specific guidance for current use of, and research needed on, the four most advanced types of Alzheimer’s plasma biomarkers: plasma amyloid-beta 42/amyloid-beta 40 (Aβ42/Aβ40), phospho-tau (p-tau), neurofilament light (NfL), and glial fibrillary acidic protein (GFAP), as well as potential combinations of markers. For example, the need for:
+Real-world studies on the robustness of plasma Aβ42/Aβ40 as a diagnostic test for cerebral Aβ pathology.
+Head-to-head studies comparing the performance of different forms of p-tau in different clinical contexts and across disease stages.
+Most important and enlightening are the recommendations repeated by the authors throughout the AURs or those they say apply across the biomarkers, including:
+Perform prospective studies in primary care settings, including representative and diverse populations with cognitive symptoms. Evaluate the causes of false positives and negatives; the reference standard must be of high quality and preferably include CSF or PET.
+Study whether BBMs outperform what is already available today in primary care, and if they also improve diagnosis and management, including treatment decisions.
+[Gain] better understanding of biological and disease-associated variability and potential impact of medical comorbidities and concomitant medications.
+[Learn whether] certain BBM-based algorithms can be used alone to support an Alzheimer’s diagnosis, or should they only be used as a gatekeeper to CSF/PET.
+Eventually (a) perform head-to-head comparisons of different plasma biomarker assays, and (b) establish the most optimal combinations of easily accessible biomarkers.
+Defining the need
+According to the workgroup, about 25-30% of patients with a clinical diagnosis of Alzheimer’s dementia are misdiagnosed when assessed at specialized dementia clinics, and the accuracy of clinical diagnosis is similar or even lower for other dementias, including frontotemporal dementia, dementia with Lewy bodies and vascular dementia. In fact, in most countries, most patients with cognitive or behavioral symptoms are managed in primary care where the misdiagnosis is even higher. The problem is especially acute in the earliest stages of the disease.
+“There is a great global need for accurate BBM-based diagnostic and prognostic algorithms that can substantially improve the accuracy of a diagnostic work-up of Alzheimer’s, particularly in the early stages of the disease,” said Reisa Sperling, M.D., professor of Neurology at Harvard Medical School and director of the Center for Alzheimer Research and Treatment at Brigham and Women's Hospital and Massachusetts General Hospital, and a co-author of the article.
+The established CSF and PET measures have excellent diagnostic properties, but are less useful outside very specialized clinics due to limited accessibility, invasiveness (e.g., CSF measures require a lumbar puncture, and PET requires infusion of stable isotopes and exposure to radiation) and high costs. This precludes use of CSF and PET biomarkers in most primary and secondary care settings worldwide.
+“A major benefit of the use of blood-based biomarkers is that the collection of blood is less invasive and likely less costly than CSF or neuroimaging markers, and more feasible for primary care practitioners,” said Adam Boxer, M.D., Ph.D., Endowed Professor in Memory in Aging at the Weill Institute for Neurosciences, University of California, San Francisco and a co-author of the article. “This may enable earlier and more equitable referral of individuals to dementia specialists and participation in clinical trials of potential new therapies.”
+For full disclosures from all authors, please see the published article.
+Alzheimer's & Dementia: Journal of the Alzheimer's Association
+Alzheimer's & Dementia: Journal of the Alzheimer's Association bridges the knowledge gaps across a wide range of bench-to-bedside investigations. Content emphasizes interdisciplinary investigations and integrative/translational articles related to: etiology, risk factors, early detection, disease modifying interventions, prevention of dementia and applications of new technologies in health services.
+About the Alzheimer's Association International Conference® (AAIC®)
+The Alzheimer’s Association International Conference (AAIC) is the world’s largest gathering of researchers from around the world focused on Alzheimer’s and other dementias. As a part of the Alzheimer’s Association’s research program, AAIC serves as a catalyst for generating new knowledge about dementia and fostering a vital, collegial research community.
+Alzheimer’s Association: alz.org
+AAIC 2022: alz.org/aaic
+AAIC 2022 newsroom: alz.org/aaic/pressroom.asp
+AAIC 2022 hashtag: #AAIC22
+About the Alzheimer's Association®
+The Alzheimer’s Association is the leading voluntary health organization in Alzheimer's care, support and research. Our mission is to lead the way to end Alzheimer's and all other dementia — by accelerating global research, driving risk reduction and early detection, and maximizing quality care and support. Visit alz.org or call +1 800.272.3900.
+###
+Media Contacts:
+Alzheimer’s Association Media Line, +1 312.335.4078, media@alz.org
+AAIC 2022 Press Office, aaicmedia@alz.org
+«
+Back to All Press Releases
+> 1200px
+lg
+> 992px
+md
+> 768px
+sm
+< 767px
+xs

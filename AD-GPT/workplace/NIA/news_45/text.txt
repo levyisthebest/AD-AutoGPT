@@ -1,0 +1,129 @@
+Potential contributor to sex differences in Alzheimer’s risk | National Institute on Aging
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+U.S. Department of Health & Human Services (HHS)
+National Institutes of Health (NIH)
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Menu
+Search
+Search
+Health Information
+A-Z Health Topics
+Alzheimer's & Related Dementias
+Caregiving
+Cognitive Health
+End of Life
+Exercise and Physical Activity
+Healthy Eating
+Español
+Get Print Publications
+Infographics
+Resources for Health Care Professionals
+Research & Funding
+All Research & Funding
+Blog - Inside NIA
+Clinical Trials
+Training & Career Development
+Grants & Funding
+Health Disparities Research
+Research Resources
+Labs at NIA
+Division of Aging Biology
+Division of Behavioral and Social Research
+Division of Geriatrics and Clinical Gerontology
+Division of Neuroscience
+Division of Extramural Activities
+Quick Links
+NIA-Specific Funding Policies
+Scientific Review
+Small Business Program
+Training Opportunities for Special Populations
+Alzheimer's Disease and Related Dementias Funding Announcements
+News & Events
+All News & Events
+News Releases
+Announcements
+Events
+Research Highlights
+Multimedia
+Quick Links
+Media Inquiries
+Alzheimer’s & Related Dementias Press Kit
+About NIA
+All About NIA
+Budget & Testimony
+Strategic Directions
+National Advisory Council on Aging (NACA)
+Advances in Aging and Alzheimer's Research
+Scientific Workforce Diversity
+Staff Directory
+Careers
+Student Resources
+Connect with NIA
+Contact NIA
+Español
+Search
+Search
+Breadcrumb
+Home
+News & Events
+Potential contributor to sex differences in Alzheimer’s risk
+Research Highlights
+Potential contributor to sex differences in Alzheimer’s risk
+October 27, 2022
+Alzheimer's DiseaseDementias
+From NIH Research Matters
+Alzheimer’s disease, which can destroy the ability to think, learn, and remember, is more common in women than men. The reasons for this disparity between the sexes are not well understood.
+Women are known to have greater levels of tau protein abnormally build up in brain cells over their lives. The structures that form, called tau tangles, are one of the hallmarks of Alzheimer’s disease.
+An NIH-funded research team led by Drs. David Kang and Jung-A “Alexa” Woo from Case Western Reserve University has been searching for molecules in the brain that may be driving tau accumulation in women. Their new study was published on Oct. 13, 2022, inCell.
+Tau is needed for the normal functioning of brain cells called neurons. In healthy neurons, old, damaged, or unneeded tau molecules are tagged for recycling and removal by the brain’s waste system. Enzymes called ubiquitinases place these tags. Other enzymes called deubiquitinases can remove these tags. Together, they help regulate when molecules are disposed of.
+The team screened for deubiquitinases in the brain that might be stopping tau recycling. When they blocked one such enzyme called USP11, levels of tau in cells, including the type that can tangle, dropped substantially.
+Further experiments confirmed that USP11 was removing the recycling tags from tau. When this happened, other enzymes added different molecular tags called acetyl groups, which are known to trigger the tangling process. The researchers found almost 10 times as much USP11 in tissue samples taken from people with Alzheimer’s disease as in those taken from people without the condition.
+The gene that encodes USP11 is found on the X chromosome. Women have two copies of this chromosome, while men only have one. While one X chromosome is usually inactive in cells, some genes, such as the one for USP11, stay active on both. The researchers found that high USP11 levels were more strongly associated with tau tangles in samples taken from female brains than from male brains.
+The team saw similar results in samples taken from the brains of female and male mice. Mice engineered to lack the gene that produces the mouse version of USP11, called usp11, had substantially less tau tagged with acetyl groups for it to tangle. As seen in the human samples, this improvement was far more substantial in female mice.
+Compared to female mice that could produce usp11, those engineered to lack usp11 had far better performance on tests of memory and learning as they aged. Male mice that lacked usp11 only showed a small improvement. These findings show how USP11 can affect the development of Alzheimer’s disease differently in men and women.
+“In terms of implications, the good news is that USP11 is an enzyme, and enzymes can traditionally be inhibited [with drugs],” Kang says. “Our hope is to develop a medicine that works in this way, in order to protect women from the higher risk of developing Alzheimer’s disease.”
+— by Sharon Reynolds
+This research was supported in part by NIA grant R01AG059721.
+Reference: Yan Y, et al. X-linked ubiquitin-specific peptidase 11 increases tauopathy vulnerability in women. Cell. 2022. Epub Oct. 4. doi: 10.1016/j.cell.2022.09.002.
+Latest News
+Could “musical medicine” influence healthy aging?
+05/25/2023
+Return to top
+Quick links
+A-Z health topics
+Clinical trials
+Careers
+Research divisions & contacts
+Staff directory
+Workforce diversity
+NIH COVID-19 information
+Contact NIA
+niaic@nia.nih.gov
+800-222-2225
+Contact us
+Follow us
+Facebook
+Twitter
+LinkedIn
+YouTube
+Newsletters
+Sign up to receive updates and resources delivered to your inbox.
+Sign up
+nia.nih.gov
+An official website of the National Institutes of Health
+Accessibility support
+FOIA requests
+No FEAR Act data
+Office of the Inspector General
+Performance reports
+Vulnerability disclosure policy
+Policies and notices
+USA.gov

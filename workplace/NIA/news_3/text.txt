@@ -1,0 +1,134 @@
+Scientists discover a new molecular pathway shared by two neurodegenerative disorders | National Institute on Aging
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+U.S. Department of Health & Human Services (HHS)
+National Institutes of Health (NIH)
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Menu
+Search
+Search
+Health Information
+A-Z Health Topics
+Alzheimer's & Related Dementias
+Caregiving
+Cognitive Health
+End of Life
+Exercise and Physical Activity
+Healthy Eating
+Español
+Get Print Publications
+Infographics
+Resources for Health Care Professionals
+Research & Funding
+All Research & Funding
+Blog - Inside NIA
+Clinical Trials
+Training & Career Development
+Grants & Funding
+Health Disparities Research
+Research Resources
+Labs at NIA
+Division of Aging Biology
+Division of Behavioral and Social Research
+Division of Geriatrics and Clinical Gerontology
+Division of Neuroscience
+Division of Extramural Activities
+Quick Links
+NIA-Specific Funding Policies
+Scientific Review
+Small Business Program
+Training Opportunities for Special Populations
+Alzheimer's Disease and Related Dementias Funding Announcements
+News & Events
+All News & Events
+News Releases
+Announcements
+Events
+Research Highlights
+Multimedia
+Quick Links
+Media Inquiries
+Alzheimer’s & Related Dementias Press Kit
+About NIA
+All About NIA
+Budget & Testimony
+Strategic Directions
+National Advisory Council on Aging (NACA)
+Advances in Aging and Alzheimer's Research
+Scientific Workforce Diversity
+Staff Directory
+Careers
+Student Resources
+Connect with NIA
+Contact NIA
+Español
+Search
+Search
+Breadcrumb
+Home
+News & Events
+Scientists discover a new molecular pathway shared by two neurodegenerative disorders
+News Releases
+Scientists discover a new molecular pathway shared by two neurodegenerative disorders
+February 28, 2022
+DementiasGenetics
+Joe Balintfy, 301-496-1752, NIAPressTeam@mail.nih.gov
+Carl P. Wonders, Ph.D., 301-496-5751, nindspressteam@ninds.nih.gov
+Finding provides a possible therapeutic target for ALS and FTD.
+Scientists from two independent research teams have discovered how the mislocalization of a protein, known as TDP-43, alters the genetic instructions for UNC13A, providing a possible therapeutic target that could also have implications in treating amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), and other forms of dementia. ALS and FTD are two neurodegenerative disorders in which many cases are linked by mislocalization of TDP-43, where instead of being primarily located in the nucleus of the cell where genes are activated, it forms aggregates outside the nucleus in multiple neurodegenerative diseases. Rare mutations in the TDP-43 gene are known to cause ALS, but almost all cases of ALS show mislocalization of TDP-43. The studies were published in Nature.
+“ALS and FTD patients have long participated in genetic studies looking for changes in genes that might contribute to risk for disease,” said Thomas Cheever, Ph.D., program director at the National Institute of Neurological Disorders and Stroke (NINDS). “Here, we see two independent research teams converging to explain how one of these changes can be a critical factor contributing to an entire class of neurodegenerative diseases, as well as a potential therapeutic target.”
+One study, which is a collaboration between the labs of Michael Ward, M.D., Ph.D., scientist at the National Institutes of Health’s NINDS, and Pietro Fratta, Ph.D., professor at the University College London Queen Square Motor Neuron Disease Centre in the United Kingdom, initially looked at lab-grown neurons derived from human induced pluripotent stem cells (iPSCs)—stem cells created from a patient’s tissue sample, often skin or blood. Using powerful genetic tools, the researchers created neurons that made much less TDP-43 protein than normal, and this resulted in the appearance of abnormal mRNA sequences inserted into the instructions used to make several other proteins. These abnormally inserted sequences, called cryptic exons, can result in a defective protein or can even prevent the protein from being made at all.
+The UNC13A gene is important for maintaining the connections between neurons and has been shown to be a risk factor for both ALS and FTD. UNC13A is also one of the mRNA sequences that contained cryptic exons when TDP-43 was reduced, and cryptic exons were also seen in neurons taken from postmortem tissue of ALS and FTD patients. These findings directly link a well-established risk factor for ALS and FTD with the loss of TDP-43.
+“We have built on years of genetic research that identified that UNC13A was implicated in motor neuron disease and FTD and supported it with a new molecular biology finding that confirms that the gene is absolutely fundamental to the disease process,” said Dr. Ward.
+At the same time, Aaron Gitler, Ph.D., professor at Stanford University in Stanford, California, and his lab, along with a team led by Len Petrucelli, Ph.D., professor at Mayo Clinic in Jacksonville, Florida, were also looking at the effects caused by a loss of TDP-43 as they pertained to FTD and ALS. They first analyzed existing datasets in which postmortem neurons from patients with FTD or ALS were sorted based on whether their nucleus contained TDP-43. When genes were compared between neurons with and without TDP-43, UNC13A again emerged as one that was significantly affected by TDP-43 loss. Knocking down TDP-43 in otherwise healthy cells also introduced cryptic exons into the UNC13A gene, suggesting that this is a direct effect on the gene itself. They also show that the genetic code differences in the variants of UNC13A that are associated with FTD and ALS occur where the cryptic exon is located. It is known that mislocalization of TDP-43 similarly causes cryptic exon splicing into another gene that encodes the protein stathmin 2, which is depleted in the motor neuron and implicated in neurodegeneration. Both studies suggest that developing means to increase the levels of UNC13A or stathmin 2 may be effective in preventing the death of neurons in these tragic disorders.
+TDP-43 mislocalization is seen in other degenerative diseases, including Alzheimer’s disease, chronic traumatic encephalopathy (CTE), limbic predominant, age-related TDP-43 encephalopathy (LATE), and inclusion body myopathy, suggesting that these findings could be extended to those conditions as well.
+The studies were supported in part by the Intramural Research Program at NINDS, and grants from NINDS (NS097263, NS097273, NS123743, NS084974, NS104437, NS120992, and NS113636) and the National Institute on Aging (AG071326, AG062677, and AG006786).
+References:
+Brown A-L et al. TDP-43 loss and ALS-risk SNPs drive mis-splicing and depletion of UNC13A. Nature. 2022;603(7899):131-137. doi: 10.1038/s41586-022-04436-3
+Ma XR et al. TDP represses cryptic exon inclusion in the FTD-ALS gene UNC13A. Nature. 2022;603(7899):124-130. doi: 10.1038/s41586-022-04424-7
+About the National Institute on Aging (NIA): NIA leads the U.S. federal government effort to conduct and support research on aging and the health and well-being of older people. Learn more about age-related cognitive change and neurodegenerative diseases via NIA’s Alzheimer's and related Dementias Education and Referral (ADEAR) Center website. Visit the main NIA website for information about a range of aging topics, in English and Spanish, and stay connected.
+About the National Institute of Neurological Disorders and Stroke (NINDS): NINDS is the nation’s leading funder of research on the brain and nervous system. The mission of NINDS is to seek fundamental knowledge about the brain and nervous system and to use that knowledge to reduce the burden of neurological disease. For more information about NINDS and its programs, visit www.ninds.nih.gov.
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov.
+NIH...Turning Discovery Into Health®
+###
+Latest News
+Insomnia drug may lower levels of Alzheimer’s proteins
+05/25/2023
+Return to top
+Quick links
+A-Z health topics
+Clinical trials
+Careers
+Research divisions & contacts
+Staff directory
+Workforce diversity
+NIH COVID-19 information
+Contact NIA
+niaic@nia.nih.gov
+800-222-2225
+Contact us
+Follow us
+Facebook
+Twitter
+LinkedIn
+YouTube
+Newsletters
+Sign up to receive updates and resources delivered to your inbox.
+Sign up
+nia.nih.gov
+An official website of the National Institutes of Health
+Accessibility support
+FOIA requests
+No FEAR Act data
+Office of the Inspector General
+Performance reports
+Vulnerability disclosure policy
+Policies and notices
+USA.gov

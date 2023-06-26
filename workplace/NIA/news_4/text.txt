@@ -1,0 +1,131 @@
+Precision medicine data dive shows water pill may be viable to test as Alzheimer’s treatment | National Institute on Aging
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+U.S. Department of Health & Human Services (HHS)
+National Institutes of Health (NIH)
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Menu
+Search
+Search
+Health Information
+A-Z Health Topics
+Alzheimer's & Related Dementias
+Caregiving
+Cognitive Health
+End of Life
+Exercise and Physical Activity
+Healthy Eating
+Español
+Get Print Publications
+Infographics
+Resources for Health Care Professionals
+Research & Funding
+All Research & Funding
+Blog - Inside NIA
+Clinical Trials
+Training & Career Development
+Grants & Funding
+Health Disparities Research
+Research Resources
+Labs at NIA
+Division of Aging Biology
+Division of Behavioral and Social Research
+Division of Geriatrics and Clinical Gerontology
+Division of Neuroscience
+Division of Extramural Activities
+Quick Links
+NIA-Specific Funding Policies
+Scientific Review
+Small Business Program
+Training Opportunities for Special Populations
+Alzheimer's Disease and Related Dementias Funding Announcements
+News & Events
+All News & Events
+News Releases
+Announcements
+Events
+Research Highlights
+Multimedia
+Quick Links
+Media Inquiries
+Alzheimer’s & Related Dementias Press Kit
+About NIA
+All About NIA
+Budget & Testimony
+Strategic Directions
+National Advisory Council on Aging (NACA)
+Advances in Aging and Alzheimer's Research
+Scientific Workforce Diversity
+Staff Directory
+Careers
+Student Resources
+Connect with NIA
+Contact NIA
+Español
+Search
+Search
+Breadcrumb
+Home
+News & Events
+Precision medicine data dive shows water pill may be viable to test as Alzheimer’s treatment
+News Releases
+Precision medicine data dive shows water pill may be viable to test as Alzheimer’s treatment
+October 12, 2021
+Alzheimer's DiseaseCognitive Health
+Joe Balintfy, 301-496-1752, NIAPressTeam@mail.nih.gov
+NIH-funded research reveals clinical trial candidate for those with genetic risk
+A commonly available oral diuretic pill approved by the U.S. Food and Drug Administration may be a potential candidate for an Alzheimer’s disease treatment for those who are at genetic risk, according to findings published in Nature Aging. The research included an analysis showing that those who took bumetanide — a commonly used and potent diuretic (PDF, 67.9K) — had a significantly lower prevalence of Alzheimer’s disease compared to those not taking the drug. The study, funded by the National Institute on Aging (NIA), part of the National Institutes of Health (NIH), advances a precision medicine approach for individuals at greater risk of the disease because of their genetic makeup.
+The research team analyzed information in databases of brain tissue samples and FDA-approved drugs, performed mouse and human cell experiments, and explored human population studies to identify bumetanide as a leading drug candidate that may potentially be repurposed to treat Alzheimer’s.
+“Though further tests and clinical trials are needed, this research underscores the value of big data-driven tactics combined with more traditional scientific approaches to identify existing FDA-approved drugs as candidates for drug repurposing to treat Alzheimer’s disease,” said NIA Director Richard J. Hodes, M.D.
+Knowing that one of the most significant genetic risk factors for late-onset Alzheimer’s is a form of the apolipoprotein E gene called APOE4, researchers analyzed data derived from 213 brain tissue samples and identified the Alzheimer’s gene expression signatures, the levels to which genes are turned on or off, specific to APOE4 carriers. Next, they compared the APOE4-specific Alzheimer’s signatures against those of more than 1,300 known FDA-approved drugs. Five drugs emerged with a gene expression signature that the researchers believed might help neutralize the disease. The strongest candidate was bumetanide, which is used to treat fluid retention often caused by medical problems such as heart, kidney, and liver disease.
+The researchers validated the data-driven discoveries by testing bumetanide in both mouse models of Alzheimer’s and induced pluripotent stem cell-derived human neurons. Researchers found that treating mice that expressed the human APOE4 gene reduced learning and memory deficits. The neutralizing effects were also confirmed in the human cell-based models, which led to the hypothesis that people already taking bumetanide should have lower rates of Alzheimer’s. To test this, the team pared down electronic health record data sets from more than 5 million people to two groups: adults over 65 who took bumetanide and a matching group who did not take bumetanide. The analysis showed that those who had the genetic risk and took bumetanide had a ~35% to 75% lower prevalence of Alzheimer’s disease compared to those not taking the drug.
+“We know that Alzheimer’s disease will likely require specific types of treatments, perhaps multiple therapies, including some that may target an individual’s unique genetic and disease characteristics — much like cancer treatments that are available today,” said Jean Yuan, M.D., Ph.D., Translational Bioinformatics and Drug Development program director in NIA's Division of Neuroscience. “The data in this paper make a good case to conduct a proof-of-concept trial of bumetanide in people with genetic risk.”
+The research team was led by scientists at Gladstone Institutes, San Francisco, the University of California, San Francisco, and the Icahn School of Medicine at Mount Sinai, New York City. This group is one of more than 20 teams supported by NIA through a program encouraging the researcher community to seek, through big data approaches, drugs that could potentially be repurposed.
+The research was funded by NIH grants R01AG057683, R01AG048017, F31AG058439, R01AG061150, F31AG057150, R21TR001743, and K01ES028047.
+NIA leads NIH’s systematic planning, development, and implementation of research milestones to achieve the goal of effectively treating and preventing Alzheimer’s and related dementias. This research is related to Milestone 7.B, “Initiate research programs for translational bioinformatics and network pharmacology to support rational drug repositioning and combination therapy from discovery through clinical development.”
+Reference: Taubes A et al. Experimental and real-world evidence supporting the computational repurposing of bumetanide for APOE4-related Alzheimer’s disease. Nature Aging. 2021. Oct. 11. Doi: 10.1038/s43587-021-00122-7
+About the National Institute on Aging (NIA): NIA leads the U.S. federal government effort to conduct and support research on aging and the health and well-being of older people. Learn more about age-related cognitive change and neurodegenerative diseases via NIA’s Alzheimer's and related Dementias Education and Referral (ADEAR) Center website. Visit the main NIA website for information about a range of aging topics, in English and Spanish, and stay connected.
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov.
+NIH...Turning Discovery Into Health®
+###
+Latest News
+Insomnia drug may lower levels of Alzheimer’s proteins
+05/25/2023
+Return to top
+Quick links
+A-Z health topics
+Clinical trials
+Careers
+Research divisions & contacts
+Staff directory
+Workforce diversity
+NIH COVID-19 information
+Contact NIA
+niaic@nia.nih.gov
+800-222-2225
+Contact us
+Follow us
+Facebook
+Twitter
+LinkedIn
+YouTube
+Newsletters
+Sign up to receive updates and resources delivered to your inbox.
+Sign up
+nia.nih.gov
+An official website of the National Institutes of Health
+Accessibility support
+FOIA requests
+No FEAR Act data
+Office of the Inspector General
+Performance reports
+Vulnerability disclosure policy
+Policies and notices
+USA.gov

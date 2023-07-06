@@ -4,7 +4,7 @@ import textwrap
 import time
 import os 
 from duckduckgo_search import ddg
-from AD_GPT_tools import scrape_text, scrape_links, scrape_place_text
+from AD_GPT_tools import scrape_text, scrape_links, scrape_place_text, get_summary_period,text_all_lda,get_city_info
 import descartes
 from dateparser.search import search_dates
 from requests.packages import urllib3
@@ -12,21 +12,22 @@ from langchain.agents import (
     Tool,
     AgentExecutor,
     LLMSingleActionAgent,
-    
+    initialize_agent,
     AgentOutputParser,
 )
 from langchain.prompts import StringPromptTemplate
 from langchain import OpenAI, LLMChain, PromptTemplate
 from langchain.schema import AgentAction, AgentFinish
 from langchain.prompts import PromptTemplate
-
+from langchain.chat_models import ChatOpenAI
 from langchain.llms.base import BaseLLM
-from langchain.text_splitter import CharacterTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.mapreduce import MapReduceChain
 from langchain.docstore.document import Document
 from langchain.chains.summarize import load_summarize_chain
-
-text_splitter = CharacterTextSplitter()
+from langchain.agents import AgentType
+import shutil
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000,chunk_overlap=0)
 
 CONTEXT_QA_TMPL = """
 Answer user's questions according to the information provided below
@@ -57,31 +58,48 @@ class ADGPT:
     def __init__(self, llm: BaseLLM):
         self.llm = llm
     
-    def google_search(self, query: str) -> None:
-        
+    def google_search(self, query: str) -> str: 
         urls= []
         pwd = os.getcwd()
         if not os.path.isdir(pwd+"/workplace"):
             os.mkdir(pwd+"/workplace")
-
+            if(os.path.exists(pwd+"/workplace/bbc_news_links.txt")):
+                print("News has already been saved on this device")    
         re = ddg(query, max_results=20)
-        if(len(re)==0):
-            return
+        if(re==None):
+            pwd = os.getcwd()
+            news_links = os.listdir(pwd+'\\news_happend_lastyear\\')
+            for news_link in news_links:
+                shutil.copyfile(pwd+'\\news_happend_lastyear\\'+news_link, pwd+'\\workplace\\'+news_link)
+            return "Internet error, but there are some news links stored on this device to help you know what is new to alzheimer's disease research"
         with open(pwd+"/workplace/news_links.txt", "w", encoding='utf8') as file:
             for web in re:
                 url = web['href']
                 print(url)
                 file.write(url + "\n")
                 urls.append(url) 
-                
-    def analyze_news(self, query: str) -> None:
+        return "The latest news has been saved on this device, you can use them to get what you want to know"
+    
+    def draw_news(self,query) -> str:
+        pwd = os.getcwd() +'/workplace/'
+        save_dir =  pwd + 'news_summary/'
+        if not os.path.exists(save_dir):
+            os.mkdir(save_dir)
+        text_result = get_summary_period(pwd,save_dir)
+        text_all_lda(text_result,save_dir)
+        get_city_info(save_dir)
+        return  "every thing you need is obtained"     
+           
+    def summary_news(self,query) -> str:
         pwd = os.getcwd()
         if not os.path.isdir(pwd+"/workplace"):
             os.mkdir(pwd+"/workplace")
         Dir = pwd+"/workplace/"
-        urls = []
-        news_web_list = ['ARUK']
+        
+        news_web_list = ['CNN','Fox','Hill','NPR','USAToday']
+        # news_web_list = ['bbc']
         for web in news_web_list:
+            urls = []
             if os.path.exists(pwd+'/workplace/'+web+'_news_links.txt'):
                 with open(pwd+'/workplace/'+web+'_news_links.txt','r',encoding='utf8') as f:
                     for url_tmp in f.readlines():
@@ -94,35 +112,49 @@ class ADGPT:
             # print(urls)
             for url in urls:
                 count = count +1 
-                print('\nBrowsing'+str(url)+'and save useful infomation in workplace folder...')
+                print('\nBrowsing '+str(url)+'and save useful infomation in workplace folder...')
                 if not os.path.isdir(Dir+web):
                     os.mkdir(Dir+web)
                 if not os.path.isdir(Dir+web+"/news_"+str(count)):
                     os.mkdir(Dir+web+"/news_"+str(count))
-                Dir1 = Dir+web+"/news_"+str(count)
-                text,datetime = scrape_text(url.replace('\n',''),web)
-                with open(Dir1 + "/text.txt", "w", encoding='utf8') as f:
-                    f.write(text)
-                cities = scrape_place_text(text)
-                with open(Dir1 + "/places.txt", "w", encoding='utf8') as f:
-                    for city in cities:
-                        f.writelines(city+'\n')     
-                links = scrape_links(url)
-                with open(Dir1 + "/links.txt", "w", encoding='utf8') as f:
-                    for link in links:
-                        f.writelines(link+'\n')  
-                with open(Dir1 + "/dates.txt", "w", encoding='utf8') as f:
-                    f.writelines(datetime+'\n')  
-                    
-                with open(Dir1 + "/text.txt", "r", encoding='utf8') as f:
-                    state_of_the_union = f.read()
-                texts = text_splitter.split_text(state_of_the_union)
-                docs = [Document(page_content=t) for t in texts[:3]]
-                chain = load_summarize_chain(llm, chain_type="map_reduce")
-                summary_file = chain.run(docs)
-                with open(Dir1 + "/summary.txt", "w", encoding='utf8') as f:
-                    f.write(summary_file)
-                
+                    Dir1 = Dir+web+"/news_"+str(count)
+                    text,datetime,news_title = scrape_text(url.replace('\n',''),web)
+                    with open(Dir1 + "/text.txt", "w", encoding='utf8') as f:
+                        f.write(text)
+                    cities = scrape_place_text(text)
+                    with open(Dir1 + "/places.txt", "w", encoding='utf8') as f:
+                        for city in cities:
+                            f.writelines(city+'\n')     
+                    links = scrape_links(url)
+                    with open(Dir1 + "/links.txt", "w", encoding='utf8') as f:
+                        for link in links:
+                            f.writelines(link+'\n') 
+                    if(datetime != 0): 
+                        with open(Dir1 + "/dates.txt", "w", encoding='utf8') as f:
+                            f.writelines(datetime+'\n')    
+                    with open(Dir1 + "/news_title.txt", "w", encoding='utf8') as f:
+                            f.writelines(news_title+'\n')                     
+                    with open(Dir1 + "/text.txt", "r", encoding='utf8') as f:
+                        state_of_the_union = f.read()
+                    texts = text_splitter.split_text(state_of_the_union)
+                    docs = [Document(page_content=t) for t in texts[0:3]]
+                    chain = load_summarize_chain(llm, chain_type="map_reduce") 
+                    summary_file = chain.run(docs)
+                    with open(Dir1 + "/summary.txt", "w", encoding='utf8') as f:
+                        f.write(summary_file)
+        # pwd = os.getcwd() +'/workplace/'
+        # save_dir =  pwd + 'news_summary/'
+        # if not os.path.exists(save_dir):
+        #     os.mkdir(save_dir)
+        # if not os.path.exists(save_dir+"Topics_Trend_All.csv"):
+        #     print("Visualizing the news topics...")
+        #     text_result = get_summary_period(pwd,save_dir)  
+        #     text_all_lda(text_result,save_dir)
+        # if not os.path.exists(save_dir+"geo_information.csv"):
+        #     print("Visualizing the news places...")
+        #     get_city_info(save_dir)
+        return "The news information you need is obtained, the summary information is stored under the workplace folder"
+    
     def introduce_info(self, query: str) -> str:
         """introduce AD-GPT"""
         context = """
@@ -133,7 +165,6 @@ class ADGPT:
         """
         prompt = CONTEXT_QA_PROMPT.format(query=query, context=context)
         return self.llm(prompt)
-
 
 AGENT_TMPL = """Answer the following questions in the given format, You can use the following tools：
 
@@ -213,7 +244,10 @@ class CustomOutputParser(AgentOutputParser):
             raise ValueError(f"Could not parse LLM output: `{llm_output}`")
         action = match.group(1).strip()
         action_input = match.group(2)
-
+        if action == "Introduce AD-GPT":
+            return AgentAction(
+                tool=action, tool_input="AD-GPT", log=llm_output
+        )
         return AgentAction(
             tool=action, tool_input=action_input.strip(" ").strip('"'), log=llm_output
         )
@@ -222,52 +256,63 @@ class CustomOutputParser(AgentOutputParser):
 if __name__ == "__main__":
     ## set api token in terminal
     
-    os.environ["OPENAI_API_KEY"] = "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"
-    llm = OpenAI(temperature=0, model_name="gpt-3.5-turbo")
+    os.environ["OPENAI_API_KEY"] = "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"    ##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,  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--->unlimit
+    llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo")
     urllib3.disable_warnings()
     ad_gpt = ADGPT(llm)
-    tools = [
-        Tool(
-            name="search and save the latest Alzheimer's disease news",
-            func=ad_gpt.google_search,
-            description="This is a tool that use the Google to search for the latest news about Alzhemier's disease and save the URLs in a file",
-        ),
-        Tool(
-            name="Analyze the news",
-            func=ad_gpt.analyze_news,
-            description="This is a tool to know when and where the Alzheimer's news happens,which will extract and save the time, place and hyperlinks in the news",
-        ),
-        Tool(
-            name="Introduce AD-GPT",
-            func=ad_gpt.introduce_info,
-            description="This is a tool to introduce AD-GPT",
-        ),
-    ]
-    agent_prompt = CustomPromptTemplate(
-        template=AGENT_TMPL,
-        tools=tools,
-        input_variables=["input", "intermediate_steps"],
-    )
-    output_parser = CustomOutputParser()
+    ad_gpt.summary_news('when did these news happen?')
+    # ad_gpt.draw_news('when did these news happen?')
+    # tools = [
+    #     Tool(
+    #         name="Search and save the latest Alzheimer's disease news", 
+    #         func=ad_gpt.google_search,
+    #         description="This is a tool that use the Google to search for the latest news about Alzhemier's disease and save the URLs in a file",
+    #     ),
+    #     Tool(
+    #         name="Summarise the news",
+    #         func=ad_gpt.summary_news,
+    #         description="This is a tool to know when and where the Alzheimer's news happens,which will extract and save the time, place and hyperlinks in the news.",
+    #     ),
+    #     Tool(
+    #         name="Introduce AD-GPT",
+    #         func=ad_gpt.introduce_info,
+    #         description="This is a tool to introduce AD-GPT",
+    #     ),
+    #     #  Tool(
+    #     #     name="Draw plots",
+    #     #     func=ad_gpt.draw_news,
+    #     #     description="This is a tool to draw plots about news saved in this device",
+    #     # ),
+    # ]
+    # agent_prompt = CustomPromptTemplate(
+    #     template=AGENT_TMPL,
+    #     tools=tools,
+    #     input_variables=["input", "intermediate_steps"],
+    # )
+    # output_parser = CustomOutputParser()
 
-    llm_chain = LLMChain(llm=llm, prompt=agent_prompt)
+    # llm_chain = LLMChain(llm=llm, prompt=agent_prompt)
 
-    tool_names = [tool.name for tool in tools]
-    agent = LLMSingleActionAgent(
-        llm_chain=llm_chain,
-        output_parser=output_parser,
-        stop=["\nObservation:"],
-        allowed_tools=tool_names,
-    )
+    # tool_names = [tool.name for tool in tools]
+    # agent = initialize_agent(tools,
+    #                          llm,
+    #                          agent=AgentType.STRUCTURED_CHAT_ZERO_SHOT_REACT_DESCRIPTION,
+    #                          verbose=True)
+    # agent = LLMSingleActionAgent(
+    #     llm_chain=llm_chain,
+    #     output_parser=output_parser,
+    #     stop=["\nObservation:"],
+    #     allowed_tools=tool_names,
+    # )
 
-    agent_executor = AgentExecutor.from_agent_and_tools(
-        agent=agent, tools=tools, verbose=True
-    )
+    # agent_executor = AgentExecutor.from_agent_and_tools(
+    #     agent=agent, tools=tools, verbose=True
+    # )
 
-    while True:
-        try:
-            user_input = input("Please enter your question: ")
-            response = agent_executor.run(user_input)
-            output_response(response)
-        except KeyboardInterrupt:
-            break
+    # while True:
+    #     try:
+    #         user_input = input("Please enter your question: ")
+    #         response = agent_executor.run(user_input)
+    #         output_response(response)
+    #     except KeyboardInterrupt:
+    #         break

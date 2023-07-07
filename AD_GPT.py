@@ -256,7 +256,7 @@ class CustomOutputParser(AgentOutputParser):
 if __name__ == "__main__":
     ## set api token in terminal
     
-    os.environ["OPENAI_API_KEY"] = "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"    ##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,  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--->unlimit
+    os.environ["OPENAI_API_KEY"] = ""    
     llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo")
     urllib3.disable_warnings()
     ad_gpt = ADGPT(llm)

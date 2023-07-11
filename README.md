@@ -6,7 +6,7 @@ In this pioneering study, inspired by AutoGPT, the state-of-the-art open-source 
 
 Our framework is as follows.
 
-<img src="fig/f1.png" width=700></img>
+<img src="f1/f1.pdf" width=700></img>
 
 ## Environment
 

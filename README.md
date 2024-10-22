@@ -30,6 +30,7 @@ To run the AD_AutoGPT:
 ```
 export OPENAI_API_KEY=<your key>
 ```
+
 2. Run the script to start AD-AutoGPT
 ```
 .\run.bat ## or sh run.sh

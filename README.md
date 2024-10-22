@@ -40,6 +40,7 @@ export OPENAI_API_KEY=<your key>
 Can you help me find the up-to-date news for Alzheimer Disease and help me understand them?
 ```
 Then, AD-AutoGPT will autonomously scratch the newest information of AD and save important informations and the visulization results in the ![workplace](./workplace) folder.  You can watch the ![demo](./demo/AD-AutoGPT_demo.MP4) to see the tutorial in the video format.
+
 ![keywords](./f1/LDA.png)
 
 ## Citation

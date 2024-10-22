@@ -6,6 +6,7 @@ In this pioneering study, inspired by AutoGPT, the state-of-the-art open-source 
 
 Our framework is as follows.
 
+![pipeline](.f1/f1.pdf)
 <img src="f1/f1.pdf" width=700></img>
 
 ## Environment

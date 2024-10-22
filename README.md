@@ -35,6 +35,11 @@ export OPENAI_API_KEY=<your key>
 ```
 .\run.bat ## or sh run.sh
 ```
+3. To keep the tools up to date and include more current articles, you can input the following prompt through the command line:
+```
+Can you help me find the up-to-date news for Alzheimer Disease and help me understand them?
+```
+Then, AD-AutoGPT will autonomously scratch the newest information of AD and save important informations and the visulization results in the ![workplace](./workplace) folder. 
 
 
 ## Citation

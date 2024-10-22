@@ -21,7 +21,7 @@ All data is public data on the network, and the data automatically collected by 
 
 ## :gear: How to run
 
- First, you need to set up the environment, then you can start using AD-AutoGPT. 
+ First, you need to set up the environment, then you can start using AD-AutoGPT. The main code of AD-AutoGPT contains two parts, AD_GPT.py and AD_GPT_tools.py. AD_GPY.py is the main code of the AD_AutoGPT, it will set the basic structure of code and call specific functions from AD_GPT_tools.py to solve the specific problems. The other files in this repository contains the system file(dictionary.gensim,model3.gensim..) to help extract city name from the original news. world_map.shp and world_map.shx are the files to draw the world map. More details can be seen in the comments of AD_GPT.py and AD_GPT_tools.py. 
 
 
 To run the AD_AutoGPT:

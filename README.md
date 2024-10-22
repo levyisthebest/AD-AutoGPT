@@ -30,9 +30,12 @@ To run the model/method:
 
 
 ## Citation
+If you use the code, please cite the following paper:
+```
 @article{dai2023ad,
   title={AD-AutoGPT: An Autonomous GPT for Alzheimer's Disease Infodemiology},
   author={Dai, Haixing and Li, Yiwei and Liu, Zhengliang and Zhao, Lin and Wu, Zihao and Song, Suhang and Shen, Ye and Zhu, Dajiang and Li, Xiang and Li, Sheng and others},
   journal={arXiv preprint arXiv:2306.10095},
   year={2023}
 }
+```

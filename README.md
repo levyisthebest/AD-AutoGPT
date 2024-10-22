@@ -8,10 +8,13 @@ Our framework is as follows.
 
 ![pipeline](./f1/framework.jpg)
 
-## Environment
 
-To set up the environment, use the command `pip install -r requirments.txt`
+## :hammer_and_wrench: Requirements
 
+```python3
+git clone https://github.com/levyisthebest/AD-AutoGPT.git
+pip install -r requirements.txt
+```
 
 ## Dataset 
 All data is public data on the network, and the data automatically collected by the program will be saved in the workplace directory. The program itself contains the data used in the paper.

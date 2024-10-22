@@ -26,7 +26,7 @@ All data is public data on the network, and the data automatically collected by 
 
 To run the AD_AutoGPT:
 
-1.Set OPENAI_API_KEY environment variable to your OpenAI API key:
+ 1. Set OPENAI_API_KEY environment variable to your OpenAI API key:
 ```
 export OPENAI_API_KEY=<your key>
 ```

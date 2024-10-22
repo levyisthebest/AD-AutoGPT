@@ -19,14 +19,14 @@ pip install -r requirements.txt
 ## Dataset 
 All data is public data on the network, and the data automatically collected by the program will be saved in the workplace directory. The program itself contains the data used in the paper.
 
-## How to run
+## :gear: How to run
 
  First, you need to set up the environment, then you can start using AD-AutoGPT. 
 
 
 To run the model/method:
     
-     .\run.bat  or sh run.sh
+     .\run.bat ## or sh run.sh
 
 
 ## Citation

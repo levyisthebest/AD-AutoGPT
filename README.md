@@ -6,7 +6,7 @@ In this pioneering study, inspired by AutoGPT, the state-of-the-art open-source 
 
 Our framework is as follows.
 
-![pipeline](.f1/framework.jpg)
+![pipeline](./f1/framework.jpg)
 
 ## Environment
 

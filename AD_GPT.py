@@ -1,318 +1,224 @@
-import re
-from typing import List, Union
-import textwrap
-import time
-import os 
-from duckduckgo_search import ddg
-from AD_GPT_tools import scrape_text, scrape_links, scrape_place_text, get_summary_period,text_all_lda,get_city_info
-import descartes
-from dateparser.search import search_dates
-from requests.packages import urllib3
-from langchain.agents import (
-    Tool,
-    AgentExecutor,
-    LLMSingleActionAgent,
-    initialize_agent,
-    AgentOutputParser,
+# Import necessary libraries
+import re  # For regular expression matching
+from typing import List, Union  # Type hints for clarity
+import textwrap  # For formatting long text output
+import time  # To create delays for a typing animation effect
+import os  # For file and folder operations
+from duckduckgo_search import ddg  # DuckDuckGo search API wrapper
+from AD_GPT_tools import (  # Custom tools for scraping and analysis
+    scrape_text, scrape_links, scrape_place_text, 
+    get_summary_period, text_all_lda, get_city_info
 )
-from langchain.prompts import StringPromptTemplate
-from langchain import OpenAI, LLMChain, PromptTemplate
+import descartes  # Used for geographic plotting (optional)
+from dateparser.search import search_dates  # To extract dates from text
+from requests.packages import urllib3  # Suppress SSL warnings
+
+# LangChain libraries for building and managing LLM-based agents
+from langchain.agents import (
+    Tool, AgentExecutor, LLMSingleActionAgent, 
+    initialize_agent, AgentOutputParser
+)
+from langchain.prompts import StringPromptTemplate, PromptTemplate
+from langchain import OpenAI, LLMChain
 from langchain.schema import AgentAction, AgentFinish
-from langchain.prompts import PromptTemplate
-from langchain.chat_models import ChatOpenAI
-from langchain.llms.base import BaseLLM
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.mapreduce import MapReduceChain
 from langchain.docstore.document import Document
 from langchain.chains.summarize import load_summarize_chain
 from langchain.agents import AgentType
-import shutil
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000,chunk_overlap=0)
+import shutil  # For copying files between directories
 
+# Configure the text splitter to handle large documents
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=4000,  # Size of each chunk
+    chunk_overlap=0  # No overlap between chunks
+)
+
+# Template for context-based question answering
 CONTEXT_QA_TMPL = """
 Answer user's questions according to the information provided below
-Information：{context}
+Information: {context}
 
-Question：{query}
+Question: {query}
 """
+
+# PromptTemplate object for context-based Q&A
 CONTEXT_QA_PROMPT = PromptTemplate(
     input_variables=["query", "context"],
     template=CONTEXT_QA_TMPL,
 )
 
-
+# Function to simulate a typing effect when printing responses
 def output_response(response: str) -> None:
     if not response:
-        exit(0)
+        exit(0)  # Exit if the response is empty
+    # Print each character with a delay to simulate typing
     for line in textwrap.wrap(response, width=60):
         for word in line.split():
             for char in word:
                 print(char, end="", flush=True)
-                time.sleep(0.1)  # Add a delay of 0.1 seconds between each character
-            print(" ", end="", flush=True)  # Add a space between each word
-        print()  # Move to the next line after each line is printed
+                time.sleep(0.1)  # 0.1-second delay per character
+            print(" ", end="", flush=True)  # Add space between words
+        print()  # Move to the next line
     print("----------------------------------------------------------------")
 
-
+# Class to manage AD-GPT functions such as search, summary, and visualization
 class ADGPT:
-    def __init__(self, llm: BaseLLM):
+    def __init__(self, llm):
+        """Initialize with a language model."""
         self.llm = llm
-    
-    def google_search(self, query: str) -> str: 
-        urls= []
-        pwd = os.getcwd()
-        if not os.path.isdir(pwd+"/workplace"):
-            os.mkdir(pwd+"/workplace")
-            if(os.path.exists(pwd+"/workplace/bbc_news_links.txt")):
-                print("News has already been saved on this device")    
+
+    def google_search(self, query: str) -> str:
+        """Search news using DuckDuckGo and save results locally."""
+        urls = []
+        pwd = os.getcwd()  # Get current working directory
+        # Create the 'workplace' folder if it doesn't exist
+        if not os.path.isdir(pwd + "/workplace"):
+            os.mkdir(pwd + "/workplace")
+        # Check if news links are already saved
+        if os.path.exists(pwd + "/workplace/bbc_news_links.txt"):
+            print("News has already been saved on this device")
+        # Perform a DuckDuckGo search
         re = ddg(query, max_results=20)
-        if(re==None):
-            pwd = os.getcwd()
-            news_links = os.listdir(pwd+'\\news_happend_lastyear\\')
+        if re is None:
+            # Fallback in case of network issues
+            news_links = os.listdir(pwd + '\\news_happend_lastyear\\')
             for news_link in news_links:
-                shutil.copyfile(pwd+'\\news_happend_lastyear\\'+news_link, pwd+'\\workplace\\'+news_link)
-            return "Internet error, but there are some news links stored on this device to help you know what is new to alzheimer's disease research"
-        with open(pwd+"/workplace/news_links.txt", "w", encoding='utf8') as file:
+                shutil.copyfile(
+                    pwd + '\\news_happend_lastyear\\' + news_link,
+                    pwd + '\\workplace\\' + news_link
+                )
+            return "Internet error, but stored news links are available."
+        # Save search results to a file
+        with open(pwd + "/workplace/news_links.txt", "w", encoding='utf8') as file:
             for web in re:
                 url = web['href']
                 print(url)
                 file.write(url + "\n")
-                urls.append(url) 
-        return "The latest news has been saved on this device, you can use them to get what you want to know"
-    
-    def draw_news(self,query) -> str:
-        pwd = os.getcwd() +'/workplace/'
-        save_dir =  pwd + 'news_summary/'
+                urls.append(url)
+        return "The latest news has been saved on this device."
+
+    def draw_news(self, query: str) -> str:
+        """Generate summaries and visualizations from saved news data."""
+        save_dir = os.getcwd() + '/workplace/news_summary/'
         if not os.path.exists(save_dir):
             os.mkdir(save_dir)
-        text_result = get_summary_period(pwd,save_dir)
-        text_all_lda(text_result,save_dir)
+        # Generate topic and place summaries
+        text_result = get_summary_period(save_dir, save_dir)
+        text_all_lda(text_result, save_dir)
         get_city_info(save_dir)
-        return  "every thing you need is obtained"     
-           
-    def summary_news(self,query) -> str:
+        return "Everything you need has been obtained."
+
+    def summary_news(self, query: str) -> str:
+        """Summarize saved news articles and extract relevant details."""
         pwd = os.getcwd()
-        if not os.path.isdir(pwd+"/workplace"):
-            os.mkdir(pwd+"/workplace")
-        Dir = pwd+"/workplace/"
-        
-        news_web_list = ['CNN','Fox','Hill','NPR','USAToday']
-        # news_web_list = ['bbc']
+        Dir = pwd + "/workplace/"
+        news_web_list = ['CNN', 'Fox', 'Hill', 'NPR', 'USAToday']
+
+        # Process each news website's saved articles
         for web in news_web_list:
             urls = []
-            if os.path.exists(pwd+'/workplace/'+web+'_news_links.txt'):
-                with open(pwd+'/workplace/'+web+'_news_links.txt','r',encoding='utf8') as f:
-                    for url_tmp in f.readlines():
-                        if(url_tmp != '\n'):
-                            urls.append(url_tmp)
-            else:
-                print('There are no news saved on local device')
-                return
-            count = 0
-            # print(urls)
-            for url in urls:
-                count = count +1 
-                print('\nBrowsing '+str(url)+'and save useful infomation in workplace folder...')
-                if not os.path.isdir(Dir+web):
-                    os.mkdir(Dir+web)
-                if not os.path.isdir(Dir+web+"/news_"+str(count)):
-                    os.mkdir(Dir+web+"/news_"+str(count))
-                    Dir1 = Dir+web+"/news_"+str(count)
-                    text,datetime,news_title = scrape_text(url.replace('\n',''),web)
-                    with open(Dir1 + "/text.txt", "w", encoding='utf8') as f:
-                        f.write(text)
-                    cities = scrape_place_text(text)
-                    with open(Dir1 + "/places.txt", "w", encoding='utf8') as f:
-                        for city in cities:
-                            f.writelines(city+'\n')     
-                    links = scrape_links(url)
-                    with open(Dir1 + "/links.txt", "w", encoding='utf8') as f:
-                        for link in links:
-                            f.writelines(link+'\n') 
-                    if(datetime != 0): 
-                        with open(Dir1 + "/dates.txt", "w", encoding='utf8') as f:
-                            f.writelines(datetime+'\n')    
-                    with open(Dir1 + "/news_title.txt", "w", encoding='utf8') as f:
-                            f.writelines(news_title+'\n')                     
-                    with open(Dir1 + "/text.txt", "r", encoding='utf8') as f:
-                        state_of_the_union = f.read()
-                    texts = text_splitter.split_text(state_of_the_union)
-                    docs = [Document(page_content=t) for t in texts[0:3]]
-                    chain = load_summarize_chain(llm, chain_type="map_reduce") 
-                    summary_file = chain.run(docs)
-                    with open(Dir1 + "/summary.txt", "w", encoding='utf8') as f:
-                        f.write(summary_file)
-        # pwd = os.getcwd() +'/workplace/'
-        # save_dir =  pwd + 'news_summary/'
-        # if not os.path.exists(save_dir):
-        #     os.mkdir(save_dir)
-        # if not os.path.exists(save_dir+"Topics_Trend_All.csv"):
-        #     print("Visualizing the news topics...")
-        #     text_result = get_summary_period(pwd,save_dir)  
-        #     text_all_lda(text_result,save_dir)
-        # if not os.path.exists(save_dir+"geo_information.csv"):
-        #     print("Visualizing the news places...")
-        #     get_city_info(save_dir)
-        return "The news information you need is obtained, the summary information is stored under the workplace folder"
-    
+            if os.path.exists(Dir + web + '_news_links.txt'):
+                with open(Dir + web + '_news_links.txt', 'r', encoding='utf8') as f:
+                    urls = [url.strip() for url in f.readlines()]
+
+            # Extract information from each URL
+            for count, url in enumerate(urls, 1):
+                print(f'Browsing {url} and saving information...')
+                web_dir = f"{Dir}{web}/news_{count}/"
+                os.makedirs(web_dir, exist_ok=True)
+
+                # Scrape news text, dates, and titles
+                text, datetime, news_title = scrape_text(url, web)
+                with open(web_dir + "text.txt", "w", encoding='utf8') as f:
+                    f.write(text)
+
+                # Extract and save places mentioned
+                cities = scrape_place_text(text)
+                with open(web_dir + "places.txt", "w", encoding='utf8') as f:
+                    f.writelines(city + '\n' for city in cities)
+
+                # Create and save a summary of the news article
+                docs = [Document(page_content=text)]
+                summary = load_summarize_chain(self.llm, "map_reduce").run(docs)
+                with open(web_dir + "summary.txt", "w", encoding='utf8') as f:
+                    f.write(summary)
+        return "News summary saved in the workplace folder."
+
     def introduce_info(self, query: str) -> str:
-        """introduce AD-GPT"""
+        """Introduce the AD-GPT system."""
         context = """
-        With the powerful reasoning ability of LLM, we have built an automated task system similar to AutoGPT, \
-            called AD-GPT, to collect and organize information related to AD on a daily basis. \
-                AD-GPT has search, summary, storage, and drawing capabilities. With our own tools, \
-                    it can automatically run relevant tasks and organize them without human intervention.
+        AD-GPT is an automated system that collects, summarizes, and organizes 
+        information on Alzheimer's disease using powerful reasoning from large language models.
         """
         prompt = CONTEXT_QA_PROMPT.format(query=query, context=context)
         return self.llm(prompt)
 
-AGENT_TMPL = """Answer the following questions in the given format, You can use the following tools：
-
-{tools}
-
-When answering, please follow the format enclosed in ---
-
----
-Question: The question need to be answered
-Thought: What should I do to answer the above question
-Action: choose one tool from ”{tool_names}“ 
-Action Input: choose the input_args that action requires
-Observation: Choose the results returned by tools
-...（The action of thinking/observation can repeat N times）
-Thought: Now, I've got the final answer
-Final Answer: The final answer of the initial question
----
-
-Now start to answer user's questions, remember to follow the specified format step by step before providing the final answer.
-
-Question: {input}
-{agent_scratchpad}
-"""
-
-
+# Custom template for formatting agent prompts
 class CustomPromptTemplate(StringPromptTemplate):
-    template: str  # Standard template
-    tools: List[Tool]  # Usable tools
+    template: str  # The base template
+    tools: List[Tool]  # List of available tools
 
     def format(self, **kwargs) -> str:
-        """
-        Fill in all the necessary values according to the defined template.
-        
-        Returns:
-            str: filled template。
-        """
-        intermediate_steps = kwargs.pop("intermediate_steps")  # Extract the intermediate steps and execute them.
+        """Format the template with given variables."""
+        intermediate_steps = kwargs.pop("intermediate_steps", [])
         thoughts = ""
         for action, observation in intermediate_steps:
             thoughts += action.log
             thoughts += f"\nObservation: {observation}\nThought: "
-        kwargs["agent_scratchpad"] = thoughts  # Record the thoughts
-        kwargs["tools"] = "\n".join(
-            [f"{tool.name}: {tool.description}" for tool in self.tools]
-        )  # Enumerate all available tool names and tool descriptions
-        kwargs["tool_names"] = ", ".join(
-            [tool.name for tool in self.tools]
-        )  # Enumerate all tools' names
-        cur_prompt = self.template.format(**kwargs)
-        print(cur_prompt)
-        return cur_prompt
+        kwargs["agent_scratchpad"] = thoughts
+        kwargs["tools"] = "\n".join([f"{tool.name}: {tool.description}" for tool in self.tools])
+        kwargs["tool_names"] = ", ".join([tool.name for tool in self.tools])
+        return self.template.format(**kwargs)
 
-
+# Custom output parser to interpret LLM outputs
 class CustomOutputParser(AgentOutputParser):
     def parse(self, llm_output: str) -> Union[AgentAction, AgentFinish]:
-        """
-        Interpret the output of LLM and locate the necessary actions based on the output text.
-
-        Args:
-            llm_output (str): _description_
-
-        Raises:
-            ValueError: _description_
-
-        Returns:
-            Union[AgentAction, AgentFinish]: _description_
-        """
-        if "Final Answer:" in llm_output:  # If the sentence contains "Final Answer", it means it has been completed.
+        """Parse the output of the LLM."""
+        if "Final Answer:" in llm_output:
             return AgentFinish(
                 return_values={"output": llm_output.split("Final Answer:")[-1].strip()},
                 log=llm_output,
             )
-
-        regex = r"Action\s*\d*\s*:(.*?)\nAction\s*\d*\s*Input\s*\d*\s*:[\s]*(.*)"  # Interpret action_input and action
-        match = re.search(regex, llm_output, re.DOTALL)
+        match = re.search(r"Action\s*:(.*?)\nAction Input\s*:(.*)", llm_output, re.DOTALL)
         if not match:
             raise ValueError(f"Could not parse LLM output: `{llm_output}`")
-        action = match.group(1).strip()
-        action_input = match.group(2)
-        if action == "Introduce AD-GPT":
-            return AgentAction(
-                tool=action, tool_input="AD-GPT", log=llm_output
-        )
         return AgentAction(
-            tool=action, tool_input=action_input.strip(" ").strip('"'), log=llm_output
+            tool=match.group(1).strip(),
+            tool_input=match.group(2).strip(),
+            log=llm_output,
         )
 
-
+# Main execution logic
 if __name__ == "__main__":
-    ## set api token in terminal
-    
-    os.environ["OPENAI_API_KEY"] = ""    
-    llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo")
+    llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo") ## This can be changed to gpt-4, gpt-4o, etc.
     urllib3.disable_warnings()
     ad_gpt = ADGPT(llm)
-    ad_gpt.summary_news('when did these news happen?')
-    # ad_gpt.draw_news('when did these news happen?')
-    # tools = [
-    #     Tool(
-    #         name="Search and save the latest Alzheimer's disease news", 
-    #         func=ad_gpt.google_search,
-    #         description="This is a tool that use the Google to search for the latest news about Alzhemier's disease and save the URLs in a file",
-    #     ),
-    #     Tool(
-    #         name="Summarise the news",
-    #         func=ad_gpt.summary_news,
-    #         description="This is a tool to know when and where the Alzheimer's news happens,which will extract and save the time, place and hyperlinks in the news.",
-    #     ),
-    #     Tool(
-    #         name="Introduce AD-GPT",
-    #         func=ad_gpt.introduce_info,
-    #         description="This is a tool to introduce AD-GPT",
-    #     ),
-    #     #  Tool(
-    #     #     name="Draw plots",
-    #     #     func=ad_gpt.draw_news,
-    #     #     description="This is a tool to draw plots about news saved in this device",
-    #     # ),
-    # ]
-    # agent_prompt = CustomPromptTemplate(
-    #     template=AGENT_TMPL,
-    #     tools=tools,
-    #     input_variables=["input", "intermediate_steps"],
-    # )
-    # output_parser = CustomOutputParser()
+    ## Define the basic functions of AD-AutoGPT
+    tools = [
+        Tool("Search for news", ad_gpt.google_search, "Search latest AD news."),
+        Tool("Summarize news", ad_gpt.summary_news, "Summarize saved AD news."),
+        Tool("Introduce AD-AutoGPT", ad_gpt.introduce_info, "Introduce the system."),
+        Tool("Draw plots", ad_gpt.draw_news, "Visualize news topics and trends."),
+    ]
 
-    # llm_chain = LLMChain(llm=llm, prompt=agent_prompt)
+    agent_prompt = CustomPromptTemplate(
+        template=AGENT_TMPL, tools=tools, input_variables=["input", "intermediate_steps"]
+    )
+    output_parser = CustomOutputParser()
 
-    # tool_names = [tool.name for tool in tools]
-    # agent = initialize_agent(tools,
-    #                          llm,
-    #                          agent=AgentType.STRUCTURED_CHAT_ZERO_SHOT_REACT_DESCRIPTION,
-    #                          verbose=True)
-    # agent = LLMSingleActionAgent(
-    #     llm_chain=llm_chain,
-    #     output_parser=output_parser,
-    #     stop=["\nObservation:"],
-    #     allowed_tools=tool_names,
-    # )
+    llm_chain = LLMChain(llm=llm, prompt=agent_prompt)
+    agent = LLMSingleActionAgent(
+        llm_chain=llm_chain, output_parser=output_parser, stop=["\nObservation:"],
+        allowed_tools=[tool.name for tool in tools]
+    )
 
-    # agent_executor = AgentExecutor.from_agent_and_tools(
-    #     agent=agent, tools=tools, verbose=True
-    # )
-
-    # while True:
-    #     try:
-    #         user_input = input("Please enter your question: ")
-    #         response = agent_executor.run(user_input)
-    #         output_response(response)
-    #     except KeyboardInterrupt:
-    #         break
+    agent_executor = AgentExecutor.from_agent_and_tools(agent=agent, tools=tools)
+    ## AD-AutoGPT will keep running until reaches the final goal.
+    while True:
+        try:
+            user_input = input("Please enter your question: ")
+            response = agent_executor.run(user_input)
+            output_response(response)
+        except KeyboardInterrupt:
+            break

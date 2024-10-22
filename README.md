@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset 
-All data is public data on the network, and the data automatically collected by the program will be saved in the workplace directory. The program itself contains the data used in this paper. The news collected from 4 websites can be seen in ./workplace![workplace](./workplace) folder.
+All data is public data on the network, and the data automatically collected by the program will be saved in the workplace directory. The program itself contains the data used in this paper. The news collected from 4 websites can be seen in ![workplace](./workplace) folder.
 
 ## :gear: How to run
 
